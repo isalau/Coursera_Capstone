@@ -1,0 +1,4420 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS = false; L_NO_TOUCH = false; L_DISABLE_3D = false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawgit.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <style> #map_f9e1572f50354477b3138923b18b0831 {
+                position : relative;
+                width : 100.0%;
+                height: 100.0%;
+                left: 0.0%;
+                top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_f9e1572f50354477b3138923b18b0831" ></div>
+        
+</body>
+<script>    
+    
+
+            
+                var bounds = null;
+            
+
+            var map_f9e1572f50354477b3138923b18b0831 = L.map(
+                                  'map_f9e1572f50354477b3138923b18b0831',
+                                  {center: [38.8949924,-77.0365581],
+                                  zoom: 10,
+                                  maxBounds: bounds,
+                                  layers: [],
+                                  worldCopyJump: false,
+                                  crs: L.CRS.EPSG3857
+                                 });
+            
+        
+    
+            var tile_layer_42c532aacce143b2bc8acb4a8f705c09 = L.tileLayer(
+                'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+                {
+  "attribution": null,
+  "detectRetina": false,
+  "maxZoom": 18,
+  "minZoom": 1,
+  "noWrap": false,
+  "subdomains": "abc"
+}
+                ).addTo(map_f9e1572f50354477b3138923b18b0831);
+        
+    
+            var circle_marker_07ca4fd1c69b4f6b95542f3740cc1da5 = L.circleMarker(
+                [38.8556577309773,-76.9803477069582],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#2adddd",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#2adddd",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f9e1572f50354477b3138923b18b0831);
+            
+    
+            var popup_d62f2811a44e4f518de1e88c0c8487b7 = L.popup({maxWidth: '300'});
+
+            
+                var html_02d0bf2bab6b4974948227b1b79ac550 = $('<div id="html_02d0bf2bab6b4974948227b1b79ac550" style="width: 100.0%; height: 100.0%;">Neighborhood: Fort Stanton Cluster: 2</div>')[0];
+                popup_d62f2811a44e4f518de1e88c0c8487b7.setContent(html_02d0bf2bab6b4974948227b1b79ac550);
+            
+
+            circle_marker_07ca4fd1c69b4f6b95542f3740cc1da5.bindPopup(popup_d62f2811a44e4f518de1e88c0c8487b7);
+
+            
+        
+    
+            var circle_marker_11ae0ce7e66248a3a285113443f07b66 = L.circleMarker(
+                [38.8410773058916,-76.9979499289275],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f9e1572f50354477b3138923b18b0831);
+            
+    
+            var popup_ad0879c91a2342dba82da42fca095f4a = L.popup({maxWidth: '300'});
+
+            
+                var html_368ecef1c17e4b03bc4de39db188cbfe = $('<div id="html_368ecef1c17e4b03bc4de39db188cbfe" style="width: 100.0%; height: 100.0%;">Neighborhood: Congress Heights Cluster: 0</div>')[0];
+                popup_ad0879c91a2342dba82da42fca095f4a.setContent(html_368ecef1c17e4b03bc4de39db188cbfe);
+            
+
+            circle_marker_11ae0ce7e66248a3a285113443f07b66.bindPopup(popup_ad0879c91a2342dba82da42fca095f4a);
+
+            
+        
+    
+            var circle_marker_c223867eee2246e0a49478544b357b5a = L.circleMarker(
+                [38.8302374138948,-76.99563620744371],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#d4dd80",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#d4dd80",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f9e1572f50354477b3138923b18b0831);
+            
+    
+            var popup_0c1acf0248cb4cdfb9c85f9d320612e3 = L.popup({maxWidth: '300'});
+
+            
+                var html_c10d033ae49d418ea6fc9998ea948272 = $('<div id="html_c10d033ae49d418ea6fc9998ea948272" style="width: 100.0%; height: 100.0%;">Neighborhood: Washington Highlands Cluster: 3</div>')[0];
+                popup_0c1acf0248cb4cdfb9c85f9d320612e3.setContent(html_c10d033ae49d418ea6fc9998ea948272);
+            
+
+            circle_marker_c223867eee2246e0a49478544b357b5a.bindPopup(popup_0c1acf0248cb4cdfb9c85f9d320612e3);
+
+            
+        
+    
+            var circle_marker_c88a508992f24e879cfb2b1b0e467d2c = L.circleMarker(
+                [38.82695244570971,-77.0092707559789],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#d4dd80",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#d4dd80",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f9e1572f50354477b3138923b18b0831);
+            
+    
+            var popup_7baf59c9a4544f119e49537bf8020dd0 = L.popup({maxWidth: '300'});
+
+            
+                var html_47476df560c849afbca530526f078381 = $('<div id="html_47476df560c849afbca530526f078381" style="width: 100.0%; height: 100.0%;">Neighborhood: Bellevue Cluster: 3</div>')[0];
+                popup_7baf59c9a4544f119e49537bf8020dd0.setContent(html_47476df560c849afbca530526f078381);
+            
+
+            circle_marker_c88a508992f24e879cfb2b1b0e467d2c.bindPopup(popup_7baf59c9a4544f119e49537bf8020dd0);
+
+            
+        
+    
+            var circle_marker_aa522c4caa09405a9df18182fb69934c = L.circleMarker(
+                [38.85368805817421,-76.9676600322525],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f9e1572f50354477b3138923b18b0831);
+            
+    
+            var popup_ffdbd895cab4446cab50d6bcecab3b85 = L.popup({maxWidth: '300'});
+
+            
+                var html_c0f6d914860b42c7b3457b0cf3aa15b5 = $('<div id="html_c0f6d914860b42c7b3457b0cf3aa15b5" style="width: 100.0%; height: 100.0%;">Neighborhood: Knox Hill/Buena Vista Cluster: 0</div>')[0];
+                popup_ffdbd895cab4446cab50d6bcecab3b85.setContent(html_c0f6d914860b42c7b3457b0cf3aa15b5);
+            
+
+            circle_marker_aa522c4caa09405a9df18182fb69934c.bindPopup(popup_ffdbd895cab4446cab50d6bcecab3b85);
+
+            
+        
+    
+            var circle_marker_6e81d64c35ff41c38650c0ee99486832 = L.circleMarker(
+                [38.8468601320983,-76.97290233944209],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f9e1572f50354477b3138923b18b0831);
+            
+    
+            var popup_219b29c95d3347ffb37b70fbc280c2ab = L.popup({maxWidth: '300'});
+
+            
+                var html_57ad1bac870d4007b1a42d56dfbf5473 = $('<div id="html_57ad1bac870d4007b1a42d56dfbf5473" style="width: 100.0%; height: 100.0%;">Neighborhood: Shipley Cluster: 0</div>')[0];
+                popup_219b29c95d3347ffb37b70fbc280c2ab.setContent(html_57ad1bac870d4007b1a42d56dfbf5473);
+            
+
+            circle_marker_6e81d64c35ff41c38650c0ee99486832.bindPopup(popup_219b29c95d3347ffb37b70fbc280c2ab);
+
+            
+        
+    
+            var circle_marker_3226e2b78f204accbbc4c65b1bcc8bac = L.circleMarker(
+                [38.8475714542599,-76.9796445653946],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#d4dd80",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#d4dd80",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f9e1572f50354477b3138923b18b0831);
+            
+    
+            var popup_d9080780f8dc4838ba41cefd64a4c8b8 = L.popup({maxWidth: '300'});
+
+            
+                var html_ca417177ca024fde8377ac4da1eb99c6 = $('<div id="html_ca417177ca024fde8377ac4da1eb99c6" style="width: 100.0%; height: 100.0%;">Neighborhood: Douglass Cluster: 3</div>')[0];
+                popup_d9080780f8dc4838ba41cefd64a4c8b8.setContent(html_ca417177ca024fde8377ac4da1eb99c6);
+            
+
+            circle_marker_3226e2b78f204accbbc4c65b1bcc8bac.bindPopup(popup_d9080780f8dc4838ba41cefd64a4c8b8);
+
+            
+        
+    
+            var circle_marker_b97310eef1a4429eaedffb3a25496a46 = L.circleMarker(
+                [38.8565542433295,-76.97392561131859],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#2adddd",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#2adddd",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f9e1572f50354477b3138923b18b0831);
+            
+    
+            var popup_0f3b076e2cbd493293c4d5040d960634 = L.popup({maxWidth: '300'});
+
+            
+                var html_96ab2c7d433143dca5534115e70ae1ff = $('<div id="html_96ab2c7d433143dca5534115e70ae1ff" style="width: 100.0%; height: 100.0%;">Neighborhood: Woodland Cluster: 2</div>')[0];
+                popup_0f3b076e2cbd493293c4d5040d960634.setContent(html_96ab2c7d433143dca5534115e70ae1ff);
+            
+
+            circle_marker_b97310eef1a4429eaedffb3a25496a46.bindPopup(popup_0f3b076e2cbd493293c4d5040d960634);
+
+            
+        
+    
+            var circle_marker_d9da13c811324d0b86a1ef3f5c4b1b8c = L.circleMarker(
+                [38.854085123032206,-76.97221326658001],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#2adddd",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#2adddd",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f9e1572f50354477b3138923b18b0831);
+            
+    
+            var popup_f49888ffe77840799646bee945e70e16 = L.popup({maxWidth: '300'});
+
+            
+                var html_d71007392f054bcaa1b3560d3e15c350 = $('<div id="html_d71007392f054bcaa1b3560d3e15c350" style="width: 100.0%; height: 100.0%;">Neighborhood: Garfield Heights Cluster: 2</div>')[0];
+                popup_f49888ffe77840799646bee945e70e16.setContent(html_d71007392f054bcaa1b3560d3e15c350);
+            
+
+            circle_marker_d9da13c811324d0b86a1ef3f5c4b1b8c.bindPopup(popup_f49888ffe77840799646bee945e70e16);
+
+            
+        
+    
+            var circle_marker_08dd0ccbb6d04d83aa9165744c73f828 = L.circleMarker(
+                [38.878384471363795,-77.0006271055175],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#d4dd80",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#d4dd80",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f9e1572f50354477b3138923b18b0831);
+            
+    
+            var popup_345c2bb8bd0e4615999a52271636ddc7 = L.popup({maxWidth: '300'});
+
+            
+                var html_9e0dbbbba54a4164be88e0e6dba6675a = $('<div id="html_9e0dbbbba54a4164be88e0e6dba6675a" style="width: 100.0%; height: 100.0%;">Neighborhood: Near Southeast Cluster: 3</div>')[0];
+                popup_345c2bb8bd0e4615999a52271636ddc7.setContent(html_9e0dbbbba54a4164be88e0e6dba6675a);
+            
+
+            circle_marker_08dd0ccbb6d04d83aa9165744c73f828.bindPopup(popup_345c2bb8bd0e4615999a52271636ddc7);
+
+            
+        
+    
+            var circle_marker_cb2c8c77e6ff4d6f8c7f569f6bdf3f67 = L.circleMarker(
+                [38.883620755637395,-76.99847748413029],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#d4dd80",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#d4dd80",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f9e1572f50354477b3138923b18b0831);
+            
+    
+            var popup_51095c6ff4a24bdab7d2d2c825334cd6 = L.popup({maxWidth: '300'});
+
+            
+                var html_15f3bb531f2240bb9784c4308ae33ad3 = $('<div id="html_15f3bb531f2240bb9784c4308ae33ad3" style="width: 100.0%; height: 100.0%;">Neighborhood: Capitol Hill Cluster: 3</div>')[0];
+                popup_51095c6ff4a24bdab7d2d2c825334cd6.setContent(html_15f3bb531f2240bb9784c4308ae33ad3);
+            
+
+            circle_marker_cb2c8c77e6ff4d6f8c7f569f6bdf3f67.bindPopup(popup_51095c6ff4a24bdab7d2d2c825334cd6);
+
+            
+        
+    
+            var circle_marker_12ccebb058f54c78bb694369ddd076d0 = L.circleMarker(
+                [38.8726304066145,-76.9628184264414],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f9e1572f50354477b3138923b18b0831);
+            
+    
+            var popup_a5cad02ee95f4b9eb6ee4423d118487f = L.popup({maxWidth: '300'});
+
+            
+                var html_c558687837cf47d0890578cc3d22bdb6 = $('<div id="html_c558687837cf47d0890578cc3d22bdb6" style="width: 100.0%; height: 100.0%;">Neighborhood: Dupont Park Cluster: 0</div>')[0];
+                popup_a5cad02ee95f4b9eb6ee4423d118487f.setContent(html_c558687837cf47d0890578cc3d22bdb6);
+            
+
+            circle_marker_12ccebb058f54c78bb694369ddd076d0.bindPopup(popup_a5cad02ee95f4b9eb6ee4423d118487f);
+
+            
+        
+    
+            var circle_marker_e1f0f0a47ed04133a1220808f8522c2c = L.circleMarker(
+                [38.8755879053944,-76.9608472064148],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f9e1572f50354477b3138923b18b0831);
+            
+    
+            var popup_176380bfbdf245e6882fa87bfd1242d1 = L.popup({maxWidth: '300'});
+
+            
+                var html_2425d8f450f442fa8fa13c4bcc7d75ab = $('<div id="html_2425d8f450f442fa8fa13c4bcc7d75ab" style="width: 100.0%; height: 100.0%;">Neighborhood: Twining Cluster: 0</div>')[0];
+                popup_176380bfbdf245e6882fa87bfd1242d1.setContent(html_2425d8f450f442fa8fa13c4bcc7d75ab);
+            
+
+            circle_marker_e1f0f0a47ed04133a1220808f8522c2c.bindPopup(popup_176380bfbdf245e6882fa87bfd1242d1);
+
+            
+        
+    
+            var circle_marker_645a881469c54744a03396c8b6821883 = L.circleMarker(
+                [38.86933565301221,-76.96580364150479],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#d4dd80",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#d4dd80",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f9e1572f50354477b3138923b18b0831);
+            
+    
+            var popup_471ca7c35d394cadac5ebf5061339d22 = L.popup({maxWidth: '300'});
+
+            
+                var html_7b70763dbe534626bd307a7f44eeedc1 = $('<div id="html_7b70763dbe534626bd307a7f44eeedc1" style="width: 100.0%; height: 100.0%;">Neighborhood: Randle Highlands Cluster: 3</div>')[0];
+                popup_471ca7c35d394cadac5ebf5061339d22.setContent(html_7b70763dbe534626bd307a7f44eeedc1);
+            
+
+            circle_marker_645a881469c54744a03396c8b6821883.bindPopup(popup_471ca7c35d394cadac5ebf5061339d22);
+
+            
+        
+    
+            var circle_marker_a7d49ee08e864b31b149e09ebd5b5cc4 = L.circleMarker(
+                [38.8691584960639,-76.97745177825591],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f9e1572f50354477b3138923b18b0831);
+            
+    
+            var popup_3916fcc1e0d94128b6f594863491a7b5 = L.popup({maxWidth: '300'});
+
+            
+                var html_1250259c3b494f6cbe0084b508841115 = $('<div id="html_1250259c3b494f6cbe0084b508841115" style="width: 100.0%; height: 100.0%;">Neighborhood: Fairlawn Cluster: 0</div>')[0];
+                popup_3916fcc1e0d94128b6f594863491a7b5.setContent(html_1250259c3b494f6cbe0084b508841115);
+            
+
+            circle_marker_a7d49ee08e864b31b149e09ebd5b5cc4.bindPopup(popup_3916fcc1e0d94128b6f594863491a7b5);
+
+            
+        
+    
+            var circle_marker_411115df09d841ada427b1ac741dd8c8 = L.circleMarker(
+                [38.8695601784991,-76.9534238619824],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f9e1572f50354477b3138923b18b0831);
+            
+    
+            var popup_687224ae31704ef8a34e8f6ad88db0b2 = L.popup({maxWidth: '300'});
+
+            
+                var html_7035a445f3d9450c81146e6a19c6bd9a = $('<div id="html_7035a445f3d9450c81146e6a19c6bd9a" style="width: 100.0%; height: 100.0%;">Neighborhood: Penn Branch Cluster: 0</div>')[0];
+                popup_687224ae31704ef8a34e8f6ad88db0b2.setContent(html_7035a445f3d9450c81146e6a19c6bd9a);
+            
+
+            circle_marker_411115df09d841ada427b1ac741dd8c8.bindPopup(popup_687224ae31704ef8a34e8f6ad88db0b2);
+
+            
+        
+    
+            var circle_marker_5b17dc42537f4838be97c40cda40c565 = L.circleMarker(
+                [38.859255263491505,-76.9972805056222],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#2adddd",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#2adddd",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f9e1572f50354477b3138923b18b0831);
+            
+    
+            var popup_1555aefa93bc45f2b199b0ef1f6ee00b = L.popup({maxWidth: '300'});
+
+            
+                var html_d242d869db9645a1be3baf75d2bbf884 = $('<div id="html_d242d869db9645a1be3baf75d2bbf884" style="width: 100.0%; height: 100.0%;">Neighborhood: Barry Farm Cluster: 2</div>')[0];
+                popup_1555aefa93bc45f2b199b0ef1f6ee00b.setContent(html_d242d869db9645a1be3baf75d2bbf884);
+            
+
+            circle_marker_5b17dc42537f4838be97c40cda40c565.bindPopup(popup_1555aefa93bc45f2b199b0ef1f6ee00b);
+
+            
+        
+    
+            var circle_marker_3b45b9cb06624ae3bcecf701745080fe = L.circleMarker(
+                [38.863185707880604,-76.9846776384643],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#d4dd80",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#d4dd80",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f9e1572f50354477b3138923b18b0831);
+            
+    
+            var popup_0181d29d6e56464ab7a5742801b9b3de = L.popup({maxWidth: '300'});
+
+            
+                var html_872c55677d0e40f987e4a3dd871c7e28 = $('<div id="html_872c55677d0e40f987e4a3dd871c7e28" style="width: 100.0%; height: 100.0%;">Neighborhood: Historic Anacostia Cluster: 3</div>')[0];
+                popup_0181d29d6e56464ab7a5742801b9b3de.setContent(html_872c55677d0e40f987e4a3dd871c7e28);
+            
+
+            circle_marker_3b45b9cb06624ae3bcecf701745080fe.bindPopup(popup_0181d29d6e56464ab7a5742801b9b3de);
+
+            
+        
+    
+            var circle_marker_92cc6a20ee9e42c69b02992940f7bb0a = L.circleMarker(
+                [38.9280082897275,-77.03058603006741],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#d4dd80",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#d4dd80",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f9e1572f50354477b3138923b18b0831);
+            
+    
+            var popup_f27aef7381e448f0859c46e6512c7106 = L.popup({maxWidth: '300'});
+
+            
+                var html_b5f8d229059245609f538b432719f0c0 = $('<div id="html_b5f8d229059245609f538b432719f0c0" style="width: 100.0%; height: 100.0%;">Neighborhood: Columbia Heights Cluster: 3</div>')[0];
+                popup_f27aef7381e448f0859c46e6512c7106.setContent(html_b5f8d229059245609f538b432719f0c0);
+            
+
+            circle_marker_92cc6a20ee9e42c69b02992940f7bb0a.bindPopup(popup_f27aef7381e448f0859c46e6512c7106);
+
+            
+        
+    
+            var circle_marker_42f1a3ef8e364e4b981efea307aa02da = L.circleMarker(
+                [38.9098163134705,-77.0253403750184],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#d4dd80",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#d4dd80",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f9e1572f50354477b3138923b18b0831);
+            
+    
+            var popup_919141fe1f9246919ea4dd539953e0a3 = L.popup({maxWidth: '300'});
+
+            
+                var html_70ecca7a8718492388aecebda9473918 = $('<div id="html_70ecca7a8718492388aecebda9473918" style="width: 100.0%; height: 100.0%;">Neighborhood: Logan Circle/Shaw Cluster: 3</div>')[0];
+                popup_919141fe1f9246919ea4dd539953e0a3.setContent(html_70ecca7a8718492388aecebda9473918);
+            
+
+            circle_marker_42f1a3ef8e364e4b981efea307aa02da.bindPopup(popup_919141fe1f9246919ea4dd539953e0a3);
+
+            
+        
+    
+            var circle_marker_03df5d110d194a679275bd939a2265c8 = L.circleMarker(
+                [38.9171682954518,-77.02755010903759],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#d4dd80",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#d4dd80",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f9e1572f50354477b3138923b18b0831);
+            
+    
+            var popup_b2c02b21437f4590a4096d5bdf551135 = L.popup({maxWidth: '300'});
+
+            
+                var html_ec4fb54958fb4e8d927f8f753a044b91 = $('<div id="html_ec4fb54958fb4e8d927f8f753a044b91" style="width: 100.0%; height: 100.0%;">Neighborhood: Cardozo/Shaw Cluster: 3</div>')[0];
+                popup_b2c02b21437f4590a4096d5bdf551135.setContent(html_ec4fb54958fb4e8d927f8f753a044b91);
+            
+
+            circle_marker_03df5d110d194a679275bd939a2265c8.bindPopup(popup_b2c02b21437f4590a4096d5bdf551135);
+
+            
+        
+    
+            var circle_marker_6ca09c66553343a289f9c98cdfdab60c = L.circleMarker(
+                [38.9433905838663,-77.0661063841708],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#d4dd80",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#d4dd80",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f9e1572f50354477b3138923b18b0831);
+            
+    
+            var popup_63143c4ff52141dc97e29a23a7810301 = L.popup({maxWidth: '300'});
+
+            
+                var html_6a38cc68d56240a9a93cf5a6b1ea7f08 = $('<div id="html_6a38cc68d56240a9a93cf5a6b1ea7f08" style="width: 100.0%; height: 100.0%;">Neighborhood: Van Ness Cluster: 3</div>')[0];
+                popup_63143c4ff52141dc97e29a23a7810301.setContent(html_6a38cc68d56240a9a93cf5a6b1ea7f08);
+            
+
+            circle_marker_6ca09c66553343a289f9c98cdfdab60c.bindPopup(popup_63143c4ff52141dc97e29a23a7810301);
+
+            
+        
+    
+            var circle_marker_1e92a9897d734433a67c1d0704f2c245 = L.circleMarker(
+                [38.946892715647394,-77.0584616397505],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#d4dd80",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#d4dd80",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f9e1572f50354477b3138923b18b0831);
+            
+    
+            var popup_2068d51cfe734dc0b3e77989a826353e = L.popup({maxWidth: '300'});
+
+            
+                var html_62abd6109d124bd4b830b74d84f33a36 = $('<div id="html_62abd6109d124bd4b830b74d84f33a36" style="width: 100.0%; height: 100.0%;">Neighborhood: Forest Hills Cluster: 3</div>')[0];
+                popup_2068d51cfe734dc0b3e77989a826353e.setContent(html_62abd6109d124bd4b830b74d84f33a36);
+            
+
+            circle_marker_1e92a9897d734433a67c1d0704f2c245.bindPopup(popup_2068d51cfe734dc0b3e77989a826353e);
+
+            
+        
+    
+            var circle_marker_4d61ca9712464a0d830ff37d4d1f9df4 = L.circleMarker(
+                [38.9096371277146,-77.0906774202872],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#d4dd80",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#d4dd80",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f9e1572f50354477b3138923b18b0831);
+            
+    
+            var popup_e436c3b61ed34f639f509a37d7092a91 = L.popup({maxWidth: '300'});
+
+            
+                var html_3910d4620383494d92ba54fd58b68813 = $('<div id="html_3910d4620383494d92ba54fd58b68813" style="width: 100.0%; height: 100.0%;">Neighborhood: Georgetown Reservoir Cluster: 3</div>')[0];
+                popup_e436c3b61ed34f639f509a37d7092a91.setContent(html_3910d4620383494d92ba54fd58b68813);
+            
+
+            circle_marker_4d61ca9712464a0d830ff37d4d1f9df4.bindPopup(popup_e436c3b61ed34f639f509a37d7092a91);
+
+            
+        
+    
+            var circle_marker_012bc360074b44e7abcb94a71b9a5e38 = L.circleMarker(
+                [38.913247132361995,-77.0844071318762],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#2adddd",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#2adddd",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f9e1572f50354477b3138923b18b0831);
+            
+    
+            var popup_f5247171bd6f41eabdf46bbef2e8a0fe = L.popup({maxWidth: '300'});
+
+            
+                var html_ac98660acabd4ab988ce7b889e704128 = $('<div id="html_ac98660acabd4ab988ce7b889e704128" style="width: 100.0%; height: 100.0%;">Neighborhood: Foxhall Village Cluster: 2</div>')[0];
+                popup_f5247171bd6f41eabdf46bbef2e8a0fe.setContent(html_ac98660acabd4ab988ce7b889e704128);
+            
+
+            circle_marker_012bc360074b44e7abcb94a71b9a5e38.bindPopup(popup_f5247171bd6f41eabdf46bbef2e8a0fe);
+
+            
+        
+    
+            var circle_marker_6e2a8634be8543d9b44470cd4eb09906 = L.circleMarker(
+                [38.9494299423347,-77.0081280853555],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#2adddd",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#2adddd",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f9e1572f50354477b3138923b18b0831);
+            
+    
+            var popup_faa08ade483040f3af1b8a2e979bf420 = L.popup({maxWidth: '300'});
+
+            
+                var html_75bc045034bb44b78ccaa821f921958f = $('<div id="html_75bc045034bb44b78ccaa821f921958f" style="width: 100.0%; height: 100.0%;">Neighborhood: Fort Totten Cluster: 2</div>')[0];
+                popup_faa08ade483040f3af1b8a2e979bf420.setContent(html_75bc045034bb44b78ccaa821f921958f);
+            
+
+            circle_marker_6e2a8634be8543d9b44470cd4eb09906.bindPopup(popup_faa08ade483040f3af1b8a2e979bf420);
+
+            
+        
+    
+            var circle_marker_84941706df7b4b779f062e97cb6944ac = L.circleMarker(
+                [38.941079187574395,-77.0048035468988],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#d4dd80",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#d4dd80",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f9e1572f50354477b3138923b18b0831);
+            
+    
+            var popup_78e6aa08c8ec4f058b183b223eb63e28 = L.popup({maxWidth: '300'});
+
+            
+                var html_11a41f147b60454ea33a6f9abdefd59c = $('<div id="html_11a41f147b60454ea33a6f9abdefd59c" style="width: 100.0%; height: 100.0%;">Neighborhood: Pleasant Hill Cluster: 3</div>')[0];
+                popup_78e6aa08c8ec4f058b183b223eb63e28.setContent(html_11a41f147b60454ea33a6f9abdefd59c);
+            
+
+            circle_marker_84941706df7b4b779f062e97cb6944ac.bindPopup(popup_78e6aa08c8ec4f058b183b223eb63e28);
+
+            
+        
+    
+            var circle_marker_4210494a73f8497b9b10d7a77145ead5 = L.circleMarker(
+                [38.910678761241606,-76.9385859852472],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#2adddd",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#2adddd",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f9e1572f50354477b3138923b18b0831);
+            
+    
+            var popup_86090aef07cb465b81caec1c31597da3 = L.popup({maxWidth: '300'});
+
+            
+                var html_bf1c22197cb840b8a7037e184e2d4506 = $('<div id="html_bf1c22197cb840b8a7037e184e2d4506" style="width: 100.0%; height: 100.0%;">Neighborhood: Kenilworth Cluster: 2</div>')[0];
+                popup_86090aef07cb465b81caec1c31597da3.setContent(html_bf1c22197cb840b8a7037e184e2d4506);
+            
+
+            circle_marker_4210494a73f8497b9b10d7a77145ead5.bindPopup(popup_86090aef07cb465b81caec1c31597da3);
+
+            
+        
+    
+            var circle_marker_825157e17a144c6eb23bda98fe525d5b = L.circleMarker(
+                [38.905329402865796,-76.9430703940501],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#d4dd80",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#d4dd80",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f9e1572f50354477b3138923b18b0831);
+            
+    
+            var popup_ded14ff3dba44f05afa0a31932fb5d2a = L.popup({maxWidth: '300'});
+
+            
+                var html_8c609a391b704ecdb289393cf7e5d0b4 = $('<div id="html_8c609a391b704ecdb289393cf7e5d0b4" style="width: 100.0%; height: 100.0%;">Neighborhood: Eastland Gardens Cluster: 3</div>')[0];
+                popup_ded14ff3dba44f05afa0a31932fb5d2a.setContent(html_8c609a391b704ecdb289393cf7e5d0b4);
+            
+
+            circle_marker_825157e17a144c6eb23bda98fe525d5b.bindPopup(popup_ded14ff3dba44f05afa0a31932fb5d2a);
+
+            
+        
+    
+            var circle_marker_65cb7536fb5f4e89853befea44304696 = L.circleMarker(
+                [38.9041072724437,-76.9328008887788],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#d4dd80",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#d4dd80",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f9e1572f50354477b3138923b18b0831);
+            
+    
+            var popup_59d30b1b4f184d18a7b95a77d6d02adf = L.popup({maxWidth: '300'});
+
+            
+                var html_2b3bb015fea64949b14680bae59fe789 = $('<div id="html_2b3bb015fea64949b14680bae59fe789" style="width: 100.0%; height: 100.0%;">Neighborhood: Deanwood Cluster: 3</div>')[0];
+                popup_59d30b1b4f184d18a7b95a77d6d02adf.setContent(html_2b3bb015fea64949b14680bae59fe789);
+            
+
+            circle_marker_65cb7536fb5f4e89853befea44304696.bindPopup(popup_59d30b1b4f184d18a7b95a77d6d02adf);
+
+            
+        
+    
+            var circle_marker_e622e398f0df46d29c4f390671ed654a = L.circleMarker(
+                [38.8860167010265,-76.9506845874606],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#d4dd80",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#d4dd80",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f9e1572f50354477b3138923b18b0831);
+            
+    
+            var popup_d3fd8646324144d2b473451e388764d1 = L.popup({maxWidth: '300'});
+
+            
+                var html_9fb7f633125a4da48b9aa2c6696c16b2 = $('<div id="html_9fb7f633125a4da48b9aa2c6696c16b2" style="width: 100.0%; height: 100.0%;">Neighborhood: Fort Dupont Cluster: 3</div>')[0];
+                popup_d3fd8646324144d2b473451e388764d1.setContent(html_9fb7f633125a4da48b9aa2c6696c16b2);
+            
+
+            circle_marker_e622e398f0df46d29c4f390671ed654a.bindPopup(popup_d3fd8646324144d2b473451e388764d1);
+
+            
+        
+    
+            var circle_marker_a5dace61b43044148717756fe94dbe5f = L.circleMarker(
+                [38.8847875066692,-76.960180928308],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f9e1572f50354477b3138923b18b0831);
+            
+    
+            var popup_1fa6c67818a443ab98dc36e2f9df9387 = L.popup({maxWidth: '300'});
+
+            
+                var html_47c5c24a3d4b45adac4e5e9f15b5bc39 = $('<div id="html_47c5c24a3d4b45adac4e5e9f15b5bc39" style="width: 100.0%; height: 100.0%;">Neighborhood: Greenway Cluster: 1</div>')[0];
+                popup_1fa6c67818a443ab98dc36e2f9df9387.setContent(html_47c5c24a3d4b45adac4e5e9f15b5bc39);
+            
+
+            circle_marker_a5dace61b43044148717756fe94dbe5f.bindPopup(popup_1fa6c67818a443ab98dc36e2f9df9387);
+
+            
+        
+    
+            var circle_marker_5932a746af9d4f0baab367baabbbf272 = L.circleMarker(
+                [38.922850004359496,-77.0607534689043],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#d4dd80",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#d4dd80",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f9e1572f50354477b3138923b18b0831);
+            
+    
+            var popup_ad766f80cc754881bcd6a784d6145294 = L.popup({maxWidth: '300'});
+
+            
+                var html_23ecb4eeb2144777addf1c5623f68a78 = $('<div id="html_23ecb4eeb2144777addf1c5623f68a78" style="width: 100.0%; height: 100.0%;">Neighborhood: Woodland-Normanstone Cluster: 3</div>')[0];
+                popup_ad766f80cc754881bcd6a784d6145294.setContent(html_23ecb4eeb2144777addf1c5623f68a78);
+            
+
+            circle_marker_5932a746af9d4f0baab367baabbbf272.bindPopup(popup_ad766f80cc754881bcd6a784d6145294);
+
+            
+        
+    
+            var circle_marker_7d54e546cec844dc9d2ce791e19e5dea = L.circleMarker(
+                [38.925398757740105,-77.07007462160871],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#d4dd80",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#d4dd80",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f9e1572f50354477b3138923b18b0831);
+            
+    
+            var popup_18c641e8bce344968433b5698d2bd596 = L.popup({maxWidth: '300'});
+
+            
+                var html_0a5016c387b445b9acdd844541ff7389 = $('<div id="html_0a5016c387b445b9acdd844541ff7389" style="width: 100.0%; height: 100.0%;">Neighborhood: Mass. Ave. Heights Cluster: 3</div>')[0];
+                popup_18c641e8bce344968433b5698d2bd596.setContent(html_0a5016c387b445b9acdd844541ff7389);
+            
+
+            circle_marker_7d54e546cec844dc9d2ce791e19e5dea.bindPopup(popup_18c641e8bce344968433b5698d2bd596);
+
+            
+        
+    
+            var circle_marker_a78c0125a7d74b67bf313345a1508e66 = L.circleMarker(
+                [38.8567244297089,-76.96304602778591],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f9e1572f50354477b3138923b18b0831);
+            
+    
+            var popup_b7e35f424dfc4b409f4a58b01dc3ad81 = L.popup({maxWidth: '300'});
+
+            
+                var html_8e3f5419665f44c5b38e0c1a06e7d1a0 = $('<div id="html_8e3f5419665f44c5b38e0c1a06e7d1a0" style="width: 100.0%; height: 100.0%;">Neighborhood: Naylor Gardens Cluster: 0</div>')[0];
+                popup_b7e35f424dfc4b409f4a58b01dc3ad81.setContent(html_8e3f5419665f44c5b38e0c1a06e7d1a0);
+            
+
+            circle_marker_a78c0125a7d74b67bf313345a1508e66.bindPopup(popup_b7e35f424dfc4b409f4a58b01dc3ad81);
+
+            
+        
+    
+            var circle_marker_1ddfb8f7a99848cd8db12352844b213a = L.circleMarker(
+                [38.9294729692462,-77.0231009985051],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#d4dd80",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#d4dd80",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f9e1572f50354477b3138923b18b0831);
+            
+    
+            var popup_794de0d3079b4717aa316bab72ed147d = L.popup({maxWidth: '300'});
+
+            
+                var html_07a953c2dbfe42bf8ec4a4ae420d0251 = $('<div id="html_07a953c2dbfe42bf8ec4a4ae420d0251" style="width: 100.0%; height: 100.0%;">Neighborhood: Pleasant Plains Cluster: 3</div>')[0];
+                popup_794de0d3079b4717aa316bab72ed147d.setContent(html_07a953c2dbfe42bf8ec4a4ae420d0251);
+            
+
+            circle_marker_1ddfb8f7a99848cd8db12352844b213a.bindPopup(popup_794de0d3079b4717aa316bab72ed147d);
+
+            
+        
+    
+            var circle_marker_f2a7c238bf334e18a8865c76b7b8a782 = L.circleMarker(
+                [38.8584233595964,-76.9905610243446],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f9e1572f50354477b3138923b18b0831);
+            
+    
+            var popup_a325a3cb692c4a669f2fbd1f26fc78a9 = L.popup({maxWidth: '300'});
+
+            
+                var html_86dfc3de01d1441b96f55fc2eb1b0a2d = $('<div id="html_86dfc3de01d1441b96f55fc2eb1b0a2d" style="width: 100.0%; height: 100.0%;">Neighborhood: Hillsdale Cluster: 0</div>')[0];
+                popup_a325a3cb692c4a669f2fbd1f26fc78a9.setContent(html_86dfc3de01d1441b96f55fc2eb1b0a2d);
+            
+
+            circle_marker_f2a7c238bf334e18a8865c76b7b8a782.bindPopup(popup_a325a3cb692c4a669f2fbd1f26fc78a9);
+
+            
+        
+    
+            var circle_marker_b1e05bb5089943dbaff84d793a54e4cf = L.circleMarker(
+                [38.8811615036792,-76.9382027122612],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f9e1572f50354477b3138923b18b0831);
+            
+    
+            var popup_547fa07b657d4bab9e2cffafac49b6d3 = L.popup({maxWidth: '300'});
+
+            
+                var html_58ff678b6bf146c79f93bb9255b73616 = $('<div id="html_58ff678b6bf146c79f93bb9255b73616" style="width: 100.0%; height: 100.0%;">Neighborhood: Benning Ridge Cluster: 0</div>')[0];
+                popup_547fa07b657d4bab9e2cffafac49b6d3.setContent(html_58ff678b6bf146c79f93bb9255b73616);
+            
+
+            circle_marker_b1e05bb5089943dbaff84d793a54e4cf.bindPopup(popup_547fa07b657d4bab9e2cffafac49b6d3);
+
+            
+        
+    
+            var circle_marker_1e22f87e87654432a3b739c62a8bcfe7 = L.circleMarker(
+                [38.895370445322705,-77.0221806521109],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#d4dd80",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#d4dd80",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f9e1572f50354477b3138923b18b0831);
+            
+    
+            var popup_31bc2ca91bb74266b9ab2195055daee8 = L.popup({maxWidth: '300'});
+
+            
+                var html_91311b7195204bc38971d270f88a39a5 = $('<div id="html_91311b7195204bc38971d270f88a39a5" style="width: 100.0%; height: 100.0%;">Neighborhood: Penn Quarter Cluster: 3</div>')[0];
+                popup_31bc2ca91bb74266b9ab2195055daee8.setContent(html_91311b7195204bc38971d270f88a39a5);
+            
+
+            circle_marker_1e22f87e87654432a3b739c62a8bcfe7.bindPopup(popup_31bc2ca91bb74266b9ab2195055daee8);
+
+            
+        
+    
+            var circle_marker_161f5013986f438887d19e7b9d95d875 = L.circleMarker(
+                [38.8991511986818,-77.0201352674454],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#d4dd80",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#d4dd80",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f9e1572f50354477b3138923b18b0831);
+            
+    
+            var popup_e7e06a91b56c4c7795c6c5cda119914f = L.popup({maxWidth: '300'});
+
+            
+                var html_de07484bff0c429e980f09269a95b908 = $('<div id="html_de07484bff0c429e980f09269a95b908" style="width: 100.0%; height: 100.0%;">Neighborhood: Chinatown Cluster: 3</div>')[0];
+                popup_e7e06a91b56c4c7795c6c5cda119914f.setContent(html_de07484bff0c429e980f09269a95b908);
+            
+
+            circle_marker_161f5013986f438887d19e7b9d95d875.bindPopup(popup_e7e06a91b56c4c7795c6c5cda119914f);
+
+            
+        
+    
+            var circle_marker_21c74180d57a41b18ead4634a56c6d7a = L.circleMarker(
+                [38.9257755825246,-77.0077674080444],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#2adddd",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#2adddd",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f9e1572f50354477b3138923b18b0831);
+            
+    
+            var popup_8ecda95efd074b959c06b99444c447f4 = L.popup({maxWidth: '300'});
+
+            
+                var html_2c2d87edb6c64789902900ad2dfb7614 = $('<div id="html_2c2d87edb6c64789902900ad2dfb7614" style="width: 100.0%; height: 100.0%;">Neighborhood: Stronghold Cluster: 2</div>')[0];
+                popup_8ecda95efd074b959c06b99444c447f4.setContent(html_2c2d87edb6c64789902900ad2dfb7614);
+            
+
+            circle_marker_21c74180d57a41b18ead4634a56c6d7a.bindPopup(popup_8ecda95efd074b959c06b99444c447f4);
+
+            
+        
+    
+            var circle_marker_7f2364b6ad3e41159cfdf1c45484fdcd = L.circleMarker(
+                [38.92398546268279,-76.9650431199897],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f9e1572f50354477b3138923b18b0831);
+            
+    
+            var popup_68e81852a1c14076921736f6bc5accdc = L.popup({maxWidth: '300'});
+
+            
+                var html_a6ae94ab572442efa3af5ccb5401440d = $('<div id="html_a6ae94ab572442efa3af5ccb5401440d" style="width: 100.0%; height: 100.0%;">Neighborhood: South Central Cluster: 0</div>')[0];
+                popup_68e81852a1c14076921736f6bc5accdc.setContent(html_a6ae94ab572442efa3af5ccb5401440d);
+            
+
+            circle_marker_7f2364b6ad3e41159cfdf1c45484fdcd.bindPopup(popup_68e81852a1c14076921736f6bc5accdc);
+
+            
+        
+    
+            var circle_marker_67ef692bd5c94a7caec714f2ce4fe6ab = L.circleMarker(
+                [38.90133625806929,-76.9723670922565],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#d4dd80",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#d4dd80",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f9e1572f50354477b3138923b18b0831);
+            
+    
+            var popup_1384d3919365485d8d0fe52d7f881da7 = L.popup({maxWidth: '300'});
+
+            
+                var html_10a77b3599e0427c956ea5f426d92a8a = $('<div id="html_10a77b3599e0427c956ea5f426d92a8a" style="width: 100.0%; height: 100.0%;">Neighborhood: Langston Cluster: 3</div>')[0];
+                popup_1384d3919365485d8d0fe52d7f881da7.setContent(html_10a77b3599e0427c956ea5f426d92a8a);
+            
+
+            circle_marker_67ef692bd5c94a7caec714f2ce4fe6ab.bindPopup(popup_1384d3919365485d8d0fe52d7f881da7);
+
+            
+        
+    
+            var circle_marker_7f02015376f6455899b3b86a35e68df9 = L.circleMarker(
+                [38.8954281643039,-77.0142336919054],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#d4dd80",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#d4dd80",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f9e1572f50354477b3138923b18b0831);
+            
+    
+            var popup_0f7fd8ea52c44c7b9ba6ae662693ccdb = L.popup({maxWidth: '300'});
+
+            
+                var html_ab7e7756526247278b7035abe8e1f790 = $('<div id="html_ab7e7756526247278b7035abe8e1f790" style="width: 100.0%; height: 100.0%;">Neighborhood: Downtown East Cluster: 3</div>')[0];
+                popup_0f7fd8ea52c44c7b9ba6ae662693ccdb.setContent(html_ab7e7756526247278b7035abe8e1f790);
+            
+
+            circle_marker_7f02015376f6455899b3b86a35e68df9.bindPopup(popup_0f7fd8ea52c44c7b9ba6ae662693ccdb);
+
+            
+        
+    
+            var circle_marker_757646ea2db44c99b277d0b3116c67bb = L.circleMarker(
+                [38.9917649791678,-77.0408766489567],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f9e1572f50354477b3138923b18b0831);
+            
+    
+            var popup_cd95d95cbd234585b2003a64d570d40a = L.popup({maxWidth: '300'});
+
+            
+                var html_6c37798e3b734feaa393c9b293218d2f = $('<div id="html_6c37798e3b734feaa393c9b293218d2f" style="width: 100.0%; height: 100.0%;">Neighborhood: North Portal Estates Cluster: 4</div>')[0];
+                popup_cd95d95cbd234585b2003a64d570d40a.setContent(html_6c37798e3b734feaa393c9b293218d2f);
+            
+
+            circle_marker_757646ea2db44c99b277d0b3116c67bb.bindPopup(popup_cd95d95cbd234585b2003a64d570d40a);
+
+            
+        
+    
+            var circle_marker_a18012036b0045e59caeab809b190c5a = L.circleMarker(
+                [38.9867895615594,-77.0410938109665],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f9e1572f50354477b3138923b18b0831);
+            
+    
+            var popup_27619ac1ea5143cb8c528a42f00640cb = L.popup({maxWidth: '300'});
+
+            
+                var html_f99cabfda6594110a61f2348469d5898 = $('<div id="html_f99cabfda6594110a61f2348469d5898" style="width: 100.0%; height: 100.0%;">Neighborhood: Colonial Village Cluster: 4</div>')[0];
+                popup_27619ac1ea5143cb8c528a42f00640cb.setContent(html_f99cabfda6594110a61f2348469d5898);
+            
+
+            circle_marker_a18012036b0045e59caeab809b190c5a.bindPopup(popup_27619ac1ea5143cb8c528a42f00640cb);
+
+            
+        
+    
+            var circle_marker_847fab5082274f779974011b5a91c33c = L.circleMarker(
+                [38.982980051936,-77.0321257124158],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f9e1572f50354477b3138923b18b0831);
+            
+    
+            var popup_ca2728e257a647d09e19f0d98f532307 = L.popup({maxWidth: '300'});
+
+            
+                var html_0948bf77073740d384ca3a613b82ff71 = $('<div id="html_0948bf77073740d384ca3a613b82ff71" style="width: 100.0%; height: 100.0%;">Neighborhood: Shepherd Park Cluster: 0</div>')[0];
+                popup_ca2728e257a647d09e19f0d98f532307.setContent(html_0948bf77073740d384ca3a613b82ff71);
+            
+
+            circle_marker_847fab5082274f779974011b5a91c33c.bindPopup(popup_ca2728e257a647d09e19f0d98f532307);
+
+            
+        
+    
+            var circle_marker_da84bd22aa2347f38d3d3e0068b9235d = L.circleMarker(
+                [38.9764615967967,-77.0215583000603],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#d4dd80",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#d4dd80",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f9e1572f50354477b3138923b18b0831);
+            
+    
+            var popup_56d718418bc6475082b8ff3c90f696cf = L.popup({maxWidth: '300'});
+
+            
+                var html_99f87059713849c2a5c385f95c1d41cf = $('<div id="html_99f87059713849c2a5c385f95c1d41cf" style="width: 100.0%; height: 100.0%;">Neighborhood: Takoma Cluster: 3</div>')[0];
+                popup_56d718418bc6475082b8ff3c90f696cf.setContent(html_99f87059713849c2a5c385f95c1d41cf);
+            
+
+            circle_marker_da84bd22aa2347f38d3d3e0068b9235d.bindPopup(popup_56d718418bc6475082b8ff3c90f696cf);
+
+            
+        
+    
+            var circle_marker_0d275a7ff18d4db19e086cfa3f14475e = L.circleMarker(
+                [38.965069728035395,-77.0064450533086],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f9e1572f50354477b3138923b18b0831);
+            
+    
+            var popup_07f55d2c56c644839d5f249479cb7dd2 = L.popup({maxWidth: '300'});
+
+            
+                var html_1190477e72f341e98df7d295fa386981 = $('<div id="html_1190477e72f341e98df7d295fa386981" style="width: 100.0%; height: 100.0%;">Neighborhood: Lamond Riggs Cluster: 0</div>')[0];
+                popup_07f55d2c56c644839d5f249479cb7dd2.setContent(html_1190477e72f341e98df7d295fa386981);
+            
+
+            circle_marker_0d275a7ff18d4db19e086cfa3f14475e.bindPopup(popup_07f55d2c56c644839d5f249479cb7dd2);
+
+            
+        
+    
+            var circle_marker_465a07c2af8c461cbd3f962b1e9522c7 = L.circleMarker(
+                [38.943039127096895,-77.0240173281667],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#d4dd80",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#d4dd80",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f9e1572f50354477b3138923b18b0831);
+            
+    
+            var popup_33a453d43429410e9e327d97d35521ad = L.popup({maxWidth: '300'});
+
+            
+                var html_ea89d0eb05534eb9aad2eec41087b344 = $('<div id="html_ea89d0eb05534eb9aad2eec41087b344" style="width: 100.0%; height: 100.0%;">Neighborhood: Petworth Cluster: 3</div>')[0];
+                popup_33a453d43429410e9e327d97d35521ad.setContent(html_ea89d0eb05534eb9aad2eec41087b344);
+            
+
+            circle_marker_465a07c2af8c461cbd3f962b1e9522c7.bindPopup(popup_33a453d43429410e9e327d97d35521ad);
+
+            
+        
+    
+            var circle_marker_1eed140100454e3886a98bff56ec7ca1 = L.circleMarker(
+                [38.955747647437896,-77.0248713883633],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#d4dd80",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#d4dd80",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f9e1572f50354477b3138923b18b0831);
+            
+    
+            var popup_980dd1aacb684e2099423b2720993f71 = L.popup({maxWidth: '300'});
+
+            
+                var html_4961de8bb2f244b799701aca6d15da85 = $('<div id="html_4961de8bb2f244b799701aca6d15da85" style="width: 100.0%; height: 100.0%;">Neighborhood: Brightwood Park Cluster: 3</div>')[0];
+                popup_980dd1aacb684e2099423b2720993f71.setContent(html_4961de8bb2f244b799701aca6d15da85);
+            
+
+            circle_marker_1eed140100454e3886a98bff56ec7ca1.bindPopup(popup_980dd1aacb684e2099423b2720993f71);
+
+            
+        
+    
+            var circle_marker_09a49fe7852142388f57d5b1a20de654 = L.circleMarker(
+                [38.962061644341,-77.01265712195729],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#2adddd",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#2adddd",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f9e1572f50354477b3138923b18b0831);
+            
+    
+            var popup_6fe6fc3e67024f30b70a451bde95612b = L.popup({maxWidth: '300'});
+
+            
+                var html_d1bd9f185ee940bb8c3756d2860e0d73 = $('<div id="html_d1bd9f185ee940bb8c3756d2860e0d73" style="width: 100.0%; height: 100.0%;">Neighborhood: Manor Park Cluster: 2</div>')[0];
+                popup_6fe6fc3e67024f30b70a451bde95612b.setContent(html_d1bd9f185ee940bb8c3756d2860e0d73);
+            
+
+            circle_marker_09a49fe7852142388f57d5b1a20de654.bindPopup(popup_6fe6fc3e67024f30b70a451bde95612b);
+
+            
+        
+    
+            var circle_marker_b7cea008033548b3ad770b3201f34a6e = L.circleMarker(
+                [38.96637934028121,-77.02687431290009],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#d4dd80",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#d4dd80",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f9e1572f50354477b3138923b18b0831);
+            
+    
+            var popup_613ecef5379d48179d0371d6e5a13f67 = L.popup({maxWidth: '300'});
+
+            
+                var html_7f84fe052ad94f06b259fd4d641fb58c = $('<div id="html_7f84fe052ad94f06b259fd4d641fb58c" style="width: 100.0%; height: 100.0%;">Neighborhood: Brightwood Cluster: 3</div>')[0];
+                popup_613ecef5379d48179d0371d6e5a13f67.setContent(html_7f84fe052ad94f06b259fd4d641fb58c);
+            
+
+            circle_marker_b7cea008033548b3ad770b3201f34a6e.bindPopup(popup_613ecef5379d48179d0371d6e5a13f67);
+
+            
+        
+    
+            var circle_marker_77f286e400524ccd894b9e17689e7fbd = L.circleMarker(
+                [38.9808825632109,-77.0559344530385],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#d4dd80",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#d4dd80",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f9e1572f50354477b3138923b18b0831);
+            
+    
+            var popup_86ce3e415adf41bfab63e11d4a49bae3 = L.popup({maxWidth: '300'});
+
+            
+                var html_daf583d1c5544c4eb76829fe5df66810 = $('<div id="html_daf583d1c5544c4eb76829fe5df66810" style="width: 100.0%; height: 100.0%;">Neighborhood: Hawthorne Cluster: 3</div>')[0];
+                popup_86ce3e415adf41bfab63e11d4a49bae3.setContent(html_daf583d1c5544c4eb76829fe5df66810);
+            
+
+            circle_marker_77f286e400524ccd894b9e17689e7fbd.bindPopup(popup_86ce3e415adf41bfab63e11d4a49bae3);
+
+            
+        
+    
+            var circle_marker_464ec0a3b09b41499fbb552c6abad85d = L.circleMarker(
+                [38.9754334354227,-77.06017448118742],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#2adddd",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#2adddd",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f9e1572f50354477b3138923b18b0831);
+            
+    
+            var popup_fb6a0da391f14f58af2c26e8878440d2 = L.popup({maxWidth: '300'});
+
+            
+                var html_68a53bd3b15f4b24b73987cb1e21caae = $('<div id="html_68a53bd3b15f4b24b73987cb1e21caae" style="width: 100.0%; height: 100.0%;">Neighborhood: Barnaby Woods Cluster: 2</div>')[0];
+                popup_fb6a0da391f14f58af2c26e8878440d2.setContent(html_68a53bd3b15f4b24b73987cb1e21caae);
+            
+
+            circle_marker_464ec0a3b09b41499fbb552c6abad85d.bindPopup(popup_fb6a0da391f14f58af2c26e8878440d2);
+
+            
+        
+    
+            var circle_marker_c7949a13969f44c4bf108a20ae0b585f = L.circleMarker(
+                [38.956070016813605,-76.9965905681139],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f9e1572f50354477b3138923b18b0831);
+            
+    
+            var popup_a0eb3f7e94aa4583932e6c6d994c67a6 = L.popup({maxWidth: '300'});
+
+            
+                var html_cae206569c61411fb72baba8a9107bac = $('<div id="html_cae206569c61411fb72baba8a9107bac" style="width: 100.0%; height: 100.0%;">Neighborhood: Queens Chapel Cluster: 0</div>')[0];
+                popup_a0eb3f7e94aa4583932e6c6d994c67a6.setContent(html_cae206569c61411fb72baba8a9107bac);
+            
+
+            circle_marker_c7949a13969f44c4bf108a20ae0b585f.bindPopup(popup_a0eb3f7e94aa4583932e6c6d994c67a6);
+
+            
+        
+    
+            var circle_marker_27593ce770cb44ba9198560e292dd535 = L.circleMarker(
+                [38.94693414113139,-76.98377195869],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#2adddd",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#2adddd",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f9e1572f50354477b3138923b18b0831);
+            
+    
+            var popup_1b9fadc7de084662a79753431c87f7c2 = L.popup({maxWidth: '300'});
+
+            
+                var html_f35bcd45972f4b9e9eeef7fc4926486e = $('<div id="html_f35bcd45972f4b9e9eeef7fc4926486e" style="width: 100.0%; height: 100.0%;">Neighborhood: Michigan Park Cluster: 2</div>')[0];
+                popup_1b9fadc7de084662a79753431c87f7c2.setContent(html_f35bcd45972f4b9e9eeef7fc4926486e);
+            
+
+            circle_marker_27593ce770cb44ba9198560e292dd535.bindPopup(popup_1b9fadc7de084662a79753431c87f7c2);
+
+            
+        
+    
+            var circle_marker_11ae78bd7de04fe5b5b17f026e472f95 = L.circleMarker(
+                [38.945644158165,-76.9936662902628],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#d4dd80",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#d4dd80",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f9e1572f50354477b3138923b18b0831);
+            
+    
+            var popup_b4ab2aac45cb4e20899b5106ac9f566a = L.popup({maxWidth: '300'});
+
+            
+                var html_f18f29e64c4e4674b2c8e178860b4492 = $('<div id="html_f18f29e64c4e4674b2c8e178860b4492" style="width: 100.0%; height: 100.0%;">Neighborhood: North Michigan Park Cluster: 3</div>')[0];
+                popup_b4ab2aac45cb4e20899b5106ac9f566a.setContent(html_f18f29e64c4e4674b2c8e178860b4492);
+            
+
+            circle_marker_11ae78bd7de04fe5b5b17f026e472f95.bindPopup(popup_b4ab2aac45cb4e20899b5106ac9f566a);
+
+            
+        
+    
+            var circle_marker_accda6083d1c4354a3661e6c2f674a96 = L.circleMarker(
+                [38.934021030804296,-76.9686395319637],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f9e1572f50354477b3138923b18b0831);
+            
+    
+            var popup_bd9144931e6442d1b6828ae9c856d3ee = L.popup({maxWidth: '300'});
+
+            
+                var html_aa41bedb08f244c68b85297eb970394e = $('<div id="html_aa41bedb08f244c68b85297eb970394e" style="width: 100.0%; height: 100.0%;">Neighborhood: Woodridge Cluster: 0</div>')[0];
+                popup_bd9144931e6442d1b6828ae9c856d3ee.setContent(html_aa41bedb08f244c68b85297eb970394e);
+            
+
+            circle_marker_accda6083d1c4354a3661e6c2f674a96.bindPopup(popup_bd9144931e6442d1b6828ae9c856d3ee);
+
+            
+        
+    
+            var circle_marker_b852456a9b4947f7a5147e49ec640443 = L.circleMarker(
+                [38.938248761904795,-76.99576150101309],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#d4dd80",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#d4dd80",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f9e1572f50354477b3138923b18b0831);
+            
+    
+            var popup_9d7bdbec1bc8473fbb0dd3ecebc89ad0 = L.popup({maxWidth: '300'});
+
+            
+                var html_0db4d99a91d940c7a0fd3d536ad9e9f9 = $('<div id="html_0db4d99a91d940c7a0fd3d536ad9e9f9" style="width: 100.0%; height: 100.0%;">Neighborhood: University Heights Cluster: 3</div>')[0];
+                popup_9d7bdbec1bc8473fbb0dd3ecebc89ad0.setContent(html_0db4d99a91d940c7a0fd3d536ad9e9f9);
+            
+
+            circle_marker_b852456a9b4947f7a5147e49ec640443.bindPopup(popup_9d7bdbec1bc8473fbb0dd3ecebc89ad0);
+
+            
+        
+    
+            var circle_marker_83adf5ad892c4c46bed63d1930b55c5b = L.circleMarker(
+                [38.9314043938665,-76.9844135883242],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#d4dd80",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#d4dd80",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f9e1572f50354477b3138923b18b0831);
+            
+    
+            var popup_997ee6769f9c444c8c41275942bfd0f2 = L.popup({maxWidth: '300'});
+
+            
+                var html_2d02f00de5e7401fa4aec0a61a655bf4 = $('<div id="html_2d02f00de5e7401fa4aec0a61a655bf4" style="width: 100.0%; height: 100.0%;">Neighborhood: Brookland Cluster: 3</div>')[0];
+                popup_997ee6769f9c444c8c41275942bfd0f2.setContent(html_2d02f00de5e7401fa4aec0a61a655bf4);
+            
+
+            circle_marker_83adf5ad892c4c46bed63d1930b55c5b.bindPopup(popup_997ee6769f9c444c8c41275942bfd0f2);
+
+            
+        
+    
+            var circle_marker_81abcbeed4724a04858645a645defdd8 = L.circleMarker(
+                [38.925198873667604,-77.000739293644],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#d4dd80",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#d4dd80",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f9e1572f50354477b3138923b18b0831);
+            
+    
+            var popup_5e1964d07b7f4bbe80ab981c7b87da3b = L.popup({maxWidth: '300'});
+
+            
+                var html_33e7b762795b4a159874e43896945a4c = $('<div id="html_33e7b762795b4a159874e43896945a4c" style="width: 100.0%; height: 100.0%;">Neighborhood: Edgewood Cluster: 3</div>')[0];
+                popup_5e1964d07b7f4bbe80ab981c7b87da3b.setContent(html_33e7b762795b4a159874e43896945a4c);
+            
+
+            circle_marker_81abcbeed4724a04858645a645defdd8.bindPopup(popup_5e1964d07b7f4bbe80ab981c7b87da3b);
+
+            
+        
+    
+            var circle_marker_4bd7f07a611040ad86ba311eea744a11 = L.circleMarker(
+                [38.8602669582629,-76.97170298302771],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#d4dd80",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#d4dd80",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f9e1572f50354477b3138923b18b0831);
+            
+    
+            var popup_d934e5fccfc740c1b59e33f365de8c3c = L.popup({maxWidth: '300'});
+
+            
+                var html_45b992c6999f427fa70eb1808a6042fb = $('<div id="html_45b992c6999f427fa70eb1808a6042fb" style="width: 100.0%; height: 100.0%;">Neighborhood: Skyland Cluster: 3</div>')[0];
+                popup_d934e5fccfc740c1b59e33f365de8c3c.setContent(html_45b992c6999f427fa70eb1808a6042fb);
+            
+
+            circle_marker_4bd7f07a611040ad86ba311eea744a11.bindPopup(popup_d934e5fccfc740c1b59e33f365de8c3c);
+
+            
+        
+    
+            var circle_marker_7abdc62a4cf14cd58fb7faf4c04c4354 = L.circleMarker(
+                [38.918226431218706,-77.0111593357196],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#d4dd80",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#d4dd80",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f9e1572f50354477b3138923b18b0831);
+            
+    
+            var popup_ba3bda945b354fbe920678f6d1ede2a3 = L.popup({maxWidth: '300'});
+
+            
+                var html_e6aaa14979584d048b08ad27174502ad = $('<div id="html_e6aaa14979584d048b08ad27174502ad" style="width: 100.0%; height: 100.0%;">Neighborhood: Bloomingdale Cluster: 3</div>')[0];
+                popup_ba3bda945b354fbe920678f6d1ede2a3.setContent(html_e6aaa14979584d048b08ad27174502ad);
+            
+
+            circle_marker_7abdc62a4cf14cd58fb7faf4c04c4354.bindPopup(popup_ba3bda945b354fbe920678f6d1ede2a3);
+
+            
+        
+    
+            var circle_marker_c4b6eb3bd38b47918b989eb589b0e920 = L.circleMarker(
+                [38.8872106994216,-76.9897099569569],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#2adddd",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#2adddd",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f9e1572f50354477b3138923b18b0831);
+            
+    
+            var popup_679bbce0d70c4020afcb1cc1d3da53fd = L.popup({maxWidth: '300'});
+
+            
+                var html_4dfd15d6b99d4fcdb5a4c5ab441be340 = $('<div id="html_4dfd15d6b99d4fcdb5a4c5ab441be340" style="width: 100.0%; height: 100.0%;">Neighborhood: Lincoln Park Cluster: 2</div>')[0];
+                popup_679bbce0d70c4020afcb1cc1d3da53fd.setContent(html_4dfd15d6b99d4fcdb5a4c5ab441be340);
+            
+
+            circle_marker_c4b6eb3bd38b47918b989eb589b0e920.bindPopup(popup_679bbce0d70c4020afcb1cc1d3da53fd);
+
+            
+        
+    
+            var circle_marker_44cdf44bb4694e7db83cefc25d18e690 = L.circleMarker(
+                [38.950314548438,-77.0335585646399],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#d4dd80",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#d4dd80",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f9e1572f50354477b3138923b18b0831);
+            
+    
+            var popup_453d347c3ef54640823aa780494ea093 = L.popup({maxWidth: '300'});
+
+            
+                var html_ade5ef6797a9475cbbe7da0150b31077 = $('<div id="html_ade5ef6797a9475cbbe7da0150b31077" style="width: 100.0%; height: 100.0%;">Neighborhood: 16th Street Heights Cluster: 3</div>')[0];
+                popup_453d347c3ef54640823aa780494ea093.setContent(html_ade5ef6797a9475cbbe7da0150b31077);
+            
+
+            circle_marker_44cdf44bb4694e7db83cefc25d18e690.bindPopup(popup_453d347c3ef54640823aa780494ea093);
+
+            
+        
+    
+            var circle_marker_bf3fa2bd94804867909253560ea5b575 = L.circleMarker(
+                [38.923609806505,-76.9547487784017],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#d4dd80",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#d4dd80",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f9e1572f50354477b3138923b18b0831);
+            
+    
+            var popup_c3f9e79e2c2c4bfab518a20bf745445e = L.popup({maxWidth: '300'});
+
+            
+                var html_c1dd7635accb44e0ac64c16fbaf5fe35 = $('<div id="html_c1dd7635accb44e0ac64c16fbaf5fe35" style="width: 100.0%; height: 100.0%;">Neighborhood: Fort Lincoln Cluster: 3</div>')[0];
+                popup_c3f9e79e2c2c4bfab518a20bf745445e.setContent(html_c1dd7635accb44e0ac64c16fbaf5fe35);
+            
+
+            circle_marker_bf3fa2bd94804867909253560ea5b575.bindPopup(popup_c3f9e79e2c2c4bfab518a20bf745445e);
+
+            
+        
+    
+            var circle_marker_e468aa2fcd5f424c9dea7a6578ba6cc0 = L.circleMarker(
+                [38.919756834965206,-76.96384571189779],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f9e1572f50354477b3138923b18b0831);
+            
+    
+            var popup_aefc5bd2c25145b0990b744ac3b159fe = L.popup({maxWidth: '300'});
+
+            
+                var html_4f499f6d2c4c494eafcee051d1202479 = $('<div id="html_4f499f6d2c4c494eafcee051d1202479" style="width: 100.0%; height: 100.0%;">Neighborhood: Gateway Cluster: 0</div>')[0];
+                popup_aefc5bd2c25145b0990b744ac3b159fe.setContent(html_4f499f6d2c4c494eafcee051d1202479);
+            
+
+            circle_marker_e468aa2fcd5f424c9dea7a6578ba6cc0.bindPopup(popup_aefc5bd2c25145b0990b744ac3b159fe);
+
+            
+        
+    
+            var circle_marker_4f216e33d6cd40df9e35fd0c7657efe0 = L.circleMarker(
+                [38.9240169600253,-76.974689457518],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#2adddd",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#2adddd",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f9e1572f50354477b3138923b18b0831);
+            
+    
+            var popup_eed3fb899e324dbab152a627baac2bcd = L.popup({maxWidth: '300'});
+
+            
+                var html_cf2f8614056d4b4cbe31abbfdb42943f = $('<div id="html_cf2f8614056d4b4cbe31abbfdb42943f" style="width: 100.0%; height: 100.0%;">Neighborhood: Langdon Cluster: 2</div>')[0];
+                popup_eed3fb899e324dbab152a627baac2bcd.setContent(html_cf2f8614056d4b4cbe31abbfdb42943f);
+            
+
+            circle_marker_4f216e33d6cd40df9e35fd0c7657efe0.bindPopup(popup_eed3fb899e324dbab152a627baac2bcd);
+
+            
+        
+    
+            var circle_marker_3ee2bc35424f49339f708b3615d4359b = L.circleMarker(
+                [38.918977277627896,-76.9870352152506],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#d4dd80",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#d4dd80",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f9e1572f50354477b3138923b18b0831);
+            
+    
+            var popup_259ce0dc815b46868d3ae314df2e0183 = L.popup({maxWidth: '300'});
+
+            
+                var html_282edb90625f4752b5f192970163de65 = $('<div id="html_282edb90625f4752b5f192970163de65" style="width: 100.0%; height: 100.0%;">Neighborhood: Brentwood Cluster: 3</div>')[0];
+                popup_259ce0dc815b46868d3ae314df2e0183.setContent(html_282edb90625f4752b5f192970163de65);
+            
+
+            circle_marker_3ee2bc35424f49339f708b3615d4359b.bindPopup(popup_259ce0dc815b46868d3ae314df2e0183);
+
+            
+        
+    
+            var circle_marker_43d711df6fa645a1a7a3f082655a704f = L.circleMarker(
+                [38.915201836911294,-77.00042542770001],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#d4dd80",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#d4dd80",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f9e1572f50354477b3138923b18b0831);
+            
+    
+            var popup_ce8b90e0bc294d20954d4aca839d20df = L.popup({maxWidth: '300'});
+
+            
+                var html_8531919cd7d749a28f46c484418a2f38 = $('<div id="html_8531919cd7d749a28f46c484418a2f38" style="width: 100.0%; height: 100.0%;">Neighborhood: Eckington Cluster: 3</div>')[0];
+                popup_ce8b90e0bc294d20954d4aca839d20df.setContent(html_8531919cd7d749a28f46c484418a2f38);
+            
+
+            circle_marker_43d711df6fa645a1a7a3f082655a704f.bindPopup(popup_ce8b90e0bc294d20954d4aca839d20df);
+
+            
+        
+    
+            var circle_marker_3271ecabf3694b5ab4b9bd503f693e07 = L.circleMarker(
+                [38.909667307282795,-77.0123941564262],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#d4dd80",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#d4dd80",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f9e1572f50354477b3138923b18b0831);
+            
+    
+            var popup_0d11a7cff7684470ad7a93dbf6682f68 = L.popup({maxWidth: '300'});
+
+            
+                var html_382329f841834f29b4e9b811739614bd = $('<div id="html_382329f841834f29b4e9b811739614bd" style="width: 100.0%; height: 100.0%;">Neighborhood: Truxton Circle Cluster: 3</div>')[0];
+                popup_0d11a7cff7684470ad7a93dbf6682f68.setContent(html_382329f841834f29b4e9b811739614bd);
+            
+
+            circle_marker_3271ecabf3694b5ab4b9bd503f693e07.bindPopup(popup_0d11a7cff7684470ad7a93dbf6682f68);
+
+            
+        
+    
+            var circle_marker_09e1d5735fb149c88f615320c670947e = L.circleMarker(
+                [38.9103894754582,-76.99162688969379],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#d4dd80",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#d4dd80",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f9e1572f50354477b3138923b18b0831);
+            
+    
+            var popup_3aab66e9ae694d84ba07114259d920f5 = L.popup({maxWidth: '300'});
+
+            
+                var html_f67f4d95becd48c1b4b6fd4a727fb1c5 = $('<div id="html_f67f4d95becd48c1b4b6fd4a727fb1c5" style="width: 100.0%; height: 100.0%;">Neighborhood: Ivy City Cluster: 3</div>')[0];
+                popup_3aab66e9ae694d84ba07114259d920f5.setContent(html_f67f4d95becd48c1b4b6fd4a727fb1c5);
+            
+
+            circle_marker_09e1d5735fb149c88f615320c670947e.bindPopup(popup_3aab66e9ae694d84ba07114259d920f5);
+
+            
+        
+    
+            var circle_marker_a523787067ee49b38335e37c054ec9a5 = L.circleMarker(
+                [38.9084624564812,-76.9827369897358],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#d4dd80",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#d4dd80",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f9e1572f50354477b3138923b18b0831);
+            
+    
+            var popup_32a3d984d2d94f4c9111e39ec94ede09 = L.popup({maxWidth: '300'});
+
+            
+                var html_078dcecb933e4f208585bcdaef5a0664 = $('<div id="html_078dcecb933e4f208585bcdaef5a0664" style="width: 100.0%; height: 100.0%;">Neighborhood: Trinidad Cluster: 3</div>')[0];
+                popup_32a3d984d2d94f4c9111e39ec94ede09.setContent(html_078dcecb933e4f208585bcdaef5a0664);
+            
+
+            circle_marker_a523787067ee49b38335e37c054ec9a5.bindPopup(popup_32a3d984d2d94f4c9111e39ec94ede09);
+
+            
+        
+    
+            var circle_marker_08186194a48a42c08da35cbc523d6c01 = L.circleMarker(
+                [38.9148597556979,-76.9724897503413],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#d4dd80",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#d4dd80",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f9e1572f50354477b3138923b18b0831);
+            
+    
+            var popup_3c5115a31047424cba67d7d1afeb14a9 = L.popup({maxWidth: '300'});
+
+            
+                var html_4f43180fe94d416bb8d56b2ddb1e8aef = $('<div id="html_4f43180fe94d416bb8d56b2ddb1e8aef" style="width: 100.0%; height: 100.0%;">Neighborhood: Arboretum Cluster: 3</div>')[0];
+                popup_3c5115a31047424cba67d7d1afeb14a9.setContent(html_4f43180fe94d416bb8d56b2ddb1e8aef);
+            
+
+            circle_marker_08186194a48a42c08da35cbc523d6c01.bindPopup(popup_3c5115a31047424cba67d7d1afeb14a9);
+
+            
+        
+    
+            var circle_marker_965975f4b738465c942c326f481c5313 = L.circleMarker(
+                [38.902465257862296,-76.977849792591],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#d4dd80",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#d4dd80",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f9e1572f50354477b3138923b18b0831);
+            
+    
+            var popup_95b335aa7da64c8c8ca4a5879fbc9b57 = L.popup({maxWidth: '300'});
+
+            
+                var html_409bbb1f46274f22ada316bbf306fa7a = $('<div id="html_409bbb1f46274f22ada316bbf306fa7a" style="width: 100.0%; height: 100.0%;">Neighborhood: Carver Cluster: 3</div>')[0];
+                popup_95b335aa7da64c8c8ca4a5879fbc9b57.setContent(html_409bbb1f46274f22ada316bbf306fa7a);
+            
+
+            circle_marker_965975f4b738465c942c326f481c5313.bindPopup(popup_95b335aa7da64c8c8ca4a5879fbc9b57);
+
+            
+        
+    
+            var circle_marker_82bf48fe7280438fad8f6bc36a1248e2 = L.circleMarker(
+                [38.9024169869013,-77.01687925863901],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#d4dd80",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#d4dd80",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f9e1572f50354477b3138923b18b0831);
+            
+    
+            var popup_2e77400493304a60a90a1aa896adb28f = L.popup({maxWidth: '300'});
+
+            
+                var html_09c4ed765d584e1aa4695f85f352b0b4 = $('<div id="html_09c4ed765d584e1aa4695f85f352b0b4" style="width: 100.0%; height: 100.0%;">Neighborhood: Mount Vernon Triangle Cluster: 3</div>')[0];
+                popup_2e77400493304a60a90a1aa896adb28f.setContent(html_09c4ed765d584e1aa4695f85f352b0b4);
+            
+
+            circle_marker_82bf48fe7280438fad8f6bc36a1248e2.bindPopup(popup_2e77400493304a60a90a1aa896adb28f);
+
+            
+        
+    
+            var circle_marker_88e1344377644bad802269688f98cec9 = L.circleMarker(
+                [38.9025321618372,-77.0112753479571],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#d4dd80",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#d4dd80",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f9e1572f50354477b3138923b18b0831);
+            
+    
+            var popup_f792b44dffe64018952c4eeed1a0fb7b = L.popup({maxWidth: '300'});
+
+            
+                var html_7a9fa28a2a2143dda69b8268c1fadac8 = $('<div id="html_7a9fa28a2a2143dda69b8268c1fadac8" style="width: 100.0%; height: 100.0%;">Neighborhood: North Capitol Street Cluster: 3</div>')[0];
+                popup_f792b44dffe64018952c4eeed1a0fb7b.setContent(html_7a9fa28a2a2143dda69b8268c1fadac8);
+            
+
+            circle_marker_88e1344377644bad802269688f98cec9.bindPopup(popup_f792b44dffe64018952c4eeed1a0fb7b);
+
+            
+        
+    
+            var circle_marker_0e342c3406f34c16af5bda466a7b6dfe = L.circleMarker(
+                [38.9005261467399,-77.02917451929359],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#d4dd80",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#d4dd80",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f9e1572f50354477b3138923b18b0831);
+            
+    
+            var popup_09df2e5ca1c648ddb1937bc89e527617 = L.popup({maxWidth: '300'});
+
+            
+                var html_3ef784156de140f985bec612b8f3f712 = $('<div id="html_3ef784156de140f985bec612b8f3f712" style="width: 100.0%; height: 100.0%;">Neighborhood: Downtown Cluster: 3</div>')[0];
+                popup_09df2e5ca1c648ddb1937bc89e527617.setContent(html_3ef784156de140f985bec612b8f3f712);
+            
+
+            circle_marker_0e342c3406f34c16af5bda466a7b6dfe.bindPopup(popup_09df2e5ca1c648ddb1937bc89e527617);
+
+            
+        
+    
+            var circle_marker_cdb2eed715ea49f1b0194994873744c7 = L.circleMarker(
+                [38.9029518475728,-77.0411338553267],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#d4dd80",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#d4dd80",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f9e1572f50354477b3138923b18b0831);
+            
+    
+            var popup_5b9c6d5ad62c4818b66c9497165c0a4f = L.popup({maxWidth: '300'});
+
+            
+                var html_051d5c755dd947c7a47117843905b218 = $('<div id="html_051d5c755dd947c7a47117843905b218" style="width: 100.0%; height: 100.0%;">Neighborhood: Connecticut Avenue/K Street Cluster: 3</div>')[0];
+                popup_5b9c6d5ad62c4818b66c9497165c0a4f.setContent(html_051d5c755dd947c7a47117843905b218);
+            
+
+            circle_marker_cdb2eed715ea49f1b0194994873744c7.bindPopup(popup_5b9c6d5ad62c4818b66c9497165c0a4f);
+
+            
+        
+    
+            var circle_marker_989e640be385438eb6d31296da22109f = L.circleMarker(
+                [38.8996277358285,-77.04792844203871],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#d4dd80",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#d4dd80",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f9e1572f50354477b3138923b18b0831);
+            
+    
+            var popup_5fe8315adc5048ec826bfa379293c0bb = L.popup({maxWidth: '300'});
+
+            
+                var html_701fd0027a884be0ade4322705023e82 = $('<div id="html_701fd0027a884be0ade4322705023e82" style="width: 100.0%; height: 100.0%;">Neighborhood: George Washington University Cluster: 3</div>')[0];
+                popup_5fe8315adc5048ec826bfa379293c0bb.setContent(html_701fd0027a884be0ade4322705023e82);
+            
+
+            circle_marker_989e640be385438eb6d31296da22109f.bindPopup(popup_5fe8315adc5048ec826bfa379293c0bb);
+
+            
+        
+    
+            var circle_marker_d31aa663ec2240f5b6120c63acd774e0 = L.circleMarker(
+                [38.8990217120766,-77.052436264642],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#d4dd80",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#d4dd80",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f9e1572f50354477b3138923b18b0831);
+            
+    
+            var popup_e46f3dedae6a46af807017762e3c9ba2 = L.popup({maxWidth: '300'});
+
+            
+                var html_7afc683b0d394fc0936d4cbeed084ae9 = $('<div id="html_7afc683b0d394fc0936d4cbeed084ae9" style="width: 100.0%; height: 100.0%;">Neighborhood: Foggy Bottom Cluster: 3</div>')[0];
+                popup_e46f3dedae6a46af807017762e3c9ba2.setContent(html_7afc683b0d394fc0936d4cbeed084ae9);
+            
+
+            circle_marker_d31aa663ec2240f5b6120c63acd774e0.bindPopup(popup_e46f3dedae6a46af807017762e3c9ba2);
+
+            
+        
+    
+            var circle_marker_118d1d66ffc84de2890ba45ebc7f2563 = L.circleMarker(
+                [38.9055503378208,-77.05188246521121],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#d4dd80",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#d4dd80",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f9e1572f50354477b3138923b18b0831);
+            
+    
+            var popup_73243053a6e74e4ab68b0f862dc4c914 = L.popup({maxWidth: '300'});
+
+            
+                var html_beb917e850a24850a67c27190d09a830 = $('<div id="html_beb917e850a24850a67c27190d09a830" style="width: 100.0%; height: 100.0%;">Neighborhood: West End Cluster: 3</div>')[0];
+                popup_73243053a6e74e4ab68b0f862dc4c914.setContent(html_beb917e850a24850a67c27190d09a830);
+            
+
+            circle_marker_118d1d66ffc84de2890ba45ebc7f2563.bindPopup(popup_73243053a6e74e4ab68b0f862dc4c914);
+
+            
+        
+    
+            var circle_marker_77ac8bf0106c4f0b80f9f860c25125fa = L.circleMarker(
+                [38.884463059024604,-77.0373344753055],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#d4dd80",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#d4dd80",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f9e1572f50354477b3138923b18b0831);
+            
+    
+            var popup_0f02616433704ee58ba47820cf1ec44d = L.popup({maxWidth: '300'});
+
+            
+                var html_1875c5d7d82e471f923127ffb128c648 = $('<div id="html_1875c5d7d82e471f923127ffb128c648" style="width: 100.0%; height: 100.0%;">Neighborhood: Monumental Core Cluster: 3</div>')[0];
+                popup_0f02616433704ee58ba47820cf1ec44d.setContent(html_1875c5d7d82e471f923127ffb128c648);
+            
+
+            circle_marker_77ac8bf0106c4f0b80f9f860c25125fa.bindPopup(popup_0f02616433704ee58ba47820cf1ec44d);
+
+            
+        
+    
+            var circle_marker_36f89ffd4806448bbccd18728025d6d1 = L.circleMarker(
+                [38.909555805690395,-77.0647956029253],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#d4dd80",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#d4dd80",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f9e1572f50354477b3138923b18b0831);
+            
+    
+            var popup_0bd48737b79c4a4cb4bbce1e53073496 = L.popup({maxWidth: '300'});
+
+            
+                var html_9de016e19ae3402492c99d0ca9cf850d = $('<div id="html_9de016e19ae3402492c99d0ca9cf850d" style="width: 100.0%; height: 100.0%;">Neighborhood: Georgetown Cluster: 3</div>')[0];
+                popup_0bd48737b79c4a4cb4bbce1e53073496.setContent(html_9de016e19ae3402492c99d0ca9cf850d);
+            
+
+            circle_marker_36f89ffd4806448bbccd18728025d6d1.bindPopup(popup_0bd48737b79c4a4cb4bbce1e53073496);
+
+            
+        
+    
+            var circle_marker_a97f0e682e2f49c596658fdc9738da6b = L.circleMarker(
+                [38.9150029947405,-77.07456576076571],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#d4dd80",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#d4dd80",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f9e1572f50354477b3138923b18b0831);
+            
+    
+            var popup_1a552e4b93dc44c6aab7e2b67efe4221 = L.popup({maxWidth: '300'});
+
+            
+                var html_e78142ebde984409a4284c09d14e9566 = $('<div id="html_e78142ebde984409a4284c09d14e9566" style="width: 100.0%; height: 100.0%;">Neighborhood: Burleith/Hillandale Cluster: 3</div>')[0];
+                popup_1a552e4b93dc44c6aab7e2b67efe4221.setContent(html_e78142ebde984409a4284c09d14e9566);
+            
+
+            circle_marker_a97f0e682e2f49c596658fdc9738da6b.bindPopup(popup_1a552e4b93dc44c6aab7e2b67efe4221);
+
+            
+        
+    
+            var circle_marker_e42d5216098b4ed2a1edb15421df624c = L.circleMarker(
+                [38.885016569165,-77.0203168748355],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#d4dd80",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#d4dd80",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f9e1572f50354477b3138923b18b0831);
+            
+    
+            var popup_e567fcf514294aa4ae470a90e92091e8 = L.popup({maxWidth: '300'});
+
+            
+                var html_3d74d7e86ee844ec9ae962c660c15e33 = $('<div id="html_3d74d7e86ee844ec9ae962c660c15e33" style="width: 100.0%; height: 100.0%;">Neighborhood: Southwest Employment Area Cluster: 3</div>')[0];
+                popup_e567fcf514294aa4ae470a90e92091e8.setContent(html_3d74d7e86ee844ec9ae962c660c15e33);
+            
+
+            circle_marker_e42d5216098b4ed2a1edb15421df624c.bindPopup(popup_e567fcf514294aa4ae470a90e92091e8);
+
+            
+        
+    
+            var circle_marker_8ca0717ac6824585bba107e32fca8fc3 = L.circleMarker(
+                [38.877908363007606,-77.01690295632609],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#d4dd80",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#d4dd80",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f9e1572f50354477b3138923b18b0831);
+            
+    
+            var popup_8532b8dcc75e4d16b9158168e3aa1632 = L.popup({maxWidth: '300'});
+
+            
+                var html_a38b335f8ede4381a7117aaedb6b5214 = $('<div id="html_a38b335f8ede4381a7117aaedb6b5214" style="width: 100.0%; height: 100.0%;">Neighborhood: Southwest/Waterfront Cluster: 3</div>')[0];
+                popup_8532b8dcc75e4d16b9158168e3aa1632.setContent(html_a38b335f8ede4381a7117aaedb6b5214);
+            
+
+            circle_marker_8ca0717ac6824585bba107e32fca8fc3.bindPopup(popup_8532b8dcc75e4d16b9158168e3aa1632);
+
+            
+        
+    
+            var circle_marker_12b27f0ba1ed450bb7698b434b815b07 = L.circleMarker(
+                [38.8683001201308,-77.0114245465469],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#d4dd80",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#d4dd80",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f9e1572f50354477b3138923b18b0831);
+            
+    
+            var popup_555a1c5faab54f63aa1e05a8ba4b422a = L.popup({maxWidth: '300'});
+
+            
+                var html_daa00ea9c35d489bad8d7a095745b904 = $('<div id="html_daa00ea9c35d489bad8d7a095745b904" style="width: 100.0%; height: 100.0%;">Neighborhood: Buzzard Point Cluster: 3</div>')[0];
+                popup_555a1c5faab54f63aa1e05a8ba4b422a.setContent(html_daa00ea9c35d489bad8d7a095745b904);
+            
+
+            circle_marker_12b27f0ba1ed450bb7698b434b815b07.bindPopup(popup_555a1c5faab54f63aa1e05a8ba4b422a);
+
+            
+        
+    
+            var circle_marker_d8791bf2108247deb08c7b766805f43e = L.circleMarker(
+                [38.866943324734,-77.01643810382821],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#d4dd80",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#d4dd80",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f9e1572f50354477b3138923b18b0831);
+            
+    
+            var popup_5ed33355bc9b4f74998107833c43f87f = L.popup({maxWidth: '300'});
+
+            
+                var html_7919b302a4444c01b8aecd9930235d7b = $('<div id="html_7919b302a4444c01b8aecd9930235d7b" style="width: 100.0%; height: 100.0%;">Neighborhood: Fort McNair Cluster: 3</div>')[0];
+                popup_5ed33355bc9b4f74998107833c43f87f.setContent(html_7919b302a4444c01b8aecd9930235d7b);
+            
+
+            circle_marker_d8791bf2108247deb08c7b766805f43e.bindPopup(popup_5ed33355bc9b4f74998107833c43f87f);
+
+            
+        
+    
+            var circle_marker_294cd27476db4d16aa2c8d6159c71c93 = L.circleMarker(
+                [38.9631464670738,-77.0664776143076],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#d4dd80",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#d4dd80",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f9e1572f50354477b3138923b18b0831);
+            
+    
+            var popup_4068d6c1b7e741a495c5aaa9f8f143b7 = L.popup({maxWidth: '300'});
+
+            
+                var html_16aaba484e0c4e4c9eea253aae7f5222 = $('<div id="html_16aaba484e0c4e4c9eea253aae7f5222" style="width: 100.0%; height: 100.0%;">Neighborhood: Chevy Chase Cluster: 3</div>')[0];
+                popup_4068d6c1b7e741a495c5aaa9f8f143b7.setContent(html_16aaba484e0c4e4c9eea253aae7f5222);
+            
+
+            circle_marker_294cd27476db4d16aa2c8d6159c71c93.bindPopup(popup_4068d6c1b7e741a495c5aaa9f8f143b7);
+
+            
+        
+    
+            var circle_marker_a5364c153dcd4e59a9aa4ba51a314538 = L.circleMarker(
+                [38.956906784474604,-77.0838544079798],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#d4dd80",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#d4dd80",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f9e1572f50354477b3138923b18b0831);
+            
+    
+            var popup_0df8ecd9cd15451aa8e03e9b8f804eab = L.popup({maxWidth: '300'});
+
+            
+                var html_c73cd62cb76e40ff8f6ca422db066bb0 = $('<div id="html_c73cd62cb76e40ff8f6ca422db066bb0" style="width: 100.0%; height: 100.0%;">Neighborhood: Friendship Heights Cluster: 3</div>')[0];
+                popup_0df8ecd9cd15451aa8e03e9b8f804eab.setContent(html_c73cd62cb76e40ff8f6ca422db066bb0);
+            
+
+            circle_marker_a5364c153dcd4e59a9aa4ba51a314538.bindPopup(popup_0df8ecd9cd15451aa8e03e9b8f804eab);
+
+            
+        
+    
+            var circle_marker_80bd4128368b44f4bc193d78fed409db = L.circleMarker(
+                [38.9478786696164,-77.0717735628965],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#2adddd",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#2adddd",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f9e1572f50354477b3138923b18b0831);
+            
+    
+            var popup_8224002d3b364793b18b1588dcdb5b09 = L.popup({maxWidth: '300'});
+
+            
+                var html_fe0c7bee351e4b8a9357f8d3612bcaec = $('<div id="html_fe0c7bee351e4b8a9357f8d3612bcaec" style="width: 100.0%; height: 100.0%;">Neighborhood: North Cleveland Park Cluster: 2</div>')[0];
+                popup_8224002d3b364793b18b1588dcdb5b09.setContent(html_fe0c7bee351e4b8a9357f8d3612bcaec);
+            
+
+            circle_marker_80bd4128368b44f4bc193d78fed409db.bindPopup(popup_8224002d3b364793b18b1588dcdb5b09);
+
+            
+        
+    
+            var circle_marker_f0531167f5484ad9a0ad766b1133c2ea = L.circleMarker(
+                [38.94712740377779,-77.0801630898158],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#d4dd80",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#d4dd80",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f9e1572f50354477b3138923b18b0831);
+            
+    
+            var popup_f30d0126f9e04955988a389243e5d6e4 = L.popup({maxWidth: '300'});
+
+            
+                var html_1273d6a5985f4b7ca29957ababa8461e = $('<div id="html_1273d6a5985f4b7ca29957ababa8461e" style="width: 100.0%; height: 100.0%;">Neighborhood: Tenleytown Cluster: 3</div>')[0];
+                popup_f30d0126f9e04955988a389243e5d6e4.setContent(html_1273d6a5985f4b7ca29957ababa8461e);
+            
+
+            circle_marker_f0531167f5484ad9a0ad766b1133c2ea.bindPopup(popup_f30d0126f9e04955988a389243e5d6e4);
+
+            
+        
+    
+            var circle_marker_aa58b2535cf2481896da67eda45ee255 = L.circleMarker(
+                [38.947611637375495,-77.0902495724569],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#2adddd",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#2adddd",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f9e1572f50354477b3138923b18b0831);
+            
+    
+            var popup_7c50c22ba1f747e9ab23390719ee98e2 = L.popup({maxWidth: '300'});
+
+            
+                var html_693546cb5183448a9773b7e2375696e8 = $('<div id="html_693546cb5183448a9773b7e2375696e8" style="width: 100.0%; height: 100.0%;">Neighborhood: American University Park Cluster: 2</div>')[0];
+                popup_7c50c22ba1f747e9ab23390719ee98e2.setContent(html_693546cb5183448a9773b7e2375696e8);
+            
+
+            circle_marker_aa58b2535cf2481896da67eda45ee255.bindPopup(popup_7c50c22ba1f747e9ab23390719ee98e2);
+
+            
+        
+    
+            var circle_marker_c84a924b4dd34eeab89e5366db55c2da = L.circleMarker(
+                [38.9393113849162,-77.09672423909879],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f9e1572f50354477b3138923b18b0831);
+            
+    
+            var popup_53c3f787e22e47c7b0288ce7a48aec87 = L.popup({maxWidth: '300'});
+
+            
+                var html_8f0bf65885ae4063b86565c69be13fbb = $('<div id="html_8f0bf65885ae4063b86565c69be13fbb" style="width: 100.0%; height: 100.0%;">Neighborhood: Spring Valley Cluster: 1</div>')[0];
+                popup_53c3f787e22e47c7b0288ce7a48aec87.setContent(html_8f0bf65885ae4063b86565c69be13fbb);
+            
+
+            circle_marker_c84a924b4dd34eeab89e5366db55c2da.bindPopup(popup_53c3f787e22e47c7b0288ce7a48aec87);
+
+            
+        
+    
+            var circle_marker_ed8b48589b084fb6920236f0d90c1120 = L.circleMarker(
+                [38.9342724159035,-77.0798604284517],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#d4dd80",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#d4dd80",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f9e1572f50354477b3138923b18b0831);
+            
+    
+            var popup_623a585ceada4c1697606191cfa8380a = L.popup({maxWidth: '300'});
+
+            
+                var html_15715263081c461ebbfd90f255ec07fc = $('<div id="html_15715263081c461ebbfd90f255ec07fc" style="width: 100.0%; height: 100.0%;">Neighborhood: Cathedral Heights Cluster: 3</div>')[0];
+                popup_623a585ceada4c1697606191cfa8380a.setContent(html_15715263081c461ebbfd90f255ec07fc);
+            
+
+            circle_marker_ed8b48589b084fb6920236f0d90c1120.bindPopup(popup_623a585ceada4c1697606191cfa8380a);
+
+            
+        
+    
+            var circle_marker_351776b1ce244d4b9721cd00dcff942b = L.circleMarker(
+                [38.9361512484424,-77.07529572316291],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#d4dd80",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#d4dd80",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f9e1572f50354477b3138923b18b0831);
+            
+    
+            var popup_b7b287e0f96f438f88f50056a16117fd = L.popup({maxWidth: '300'});
+
+            
+                var html_c3ee818a19b1495fab3d6816d718667a = $('<div id="html_c3ee818a19b1495fab3d6816d718667a" style="width: 100.0%; height: 100.0%;">Neighborhood: McLean Gardens Cluster: 3</div>')[0];
+                popup_b7b287e0f96f438f88f50056a16117fd.setContent(html_c3ee818a19b1495fab3d6816d718667a);
+            
+
+            circle_marker_351776b1ce244d4b9721cd00dcff942b.bindPopup(popup_b7b287e0f96f438f88f50056a16117fd);
+
+            
+        
+    
+            var circle_marker_d85f7d70e3984a4eaaee851dd9a3eb7e = L.circleMarker(
+                [38.93609787271139,-77.06440173738491],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#d4dd80",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#d4dd80",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f9e1572f50354477b3138923b18b0831);
+            
+    
+            var popup_1eb0ffc890654778abb99f8589c4dbc0 = L.popup({maxWidth: '300'});
+
+            
+                var html_d805a9749e4c41a8937cfa754eaa824d = $('<div id="html_d805a9749e4c41a8937cfa754eaa824d" style="width: 100.0%; height: 100.0%;">Neighborhood: Cleveland Park Cluster: 3</div>')[0];
+                popup_1eb0ffc890654778abb99f8589c4dbc0.setContent(html_d805a9749e4c41a8937cfa754eaa824d);
+            
+
+            circle_marker_d85f7d70e3984a4eaaee851dd9a3eb7e.bindPopup(popup_1eb0ffc890654778abb99f8589c4dbc0);
+
+            
+        
+    
+            var circle_marker_6b798698d15c4950a749911f47b157b0 = L.circleMarker(
+                [38.927265323966296,-77.0574829482864],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#d4dd80",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#d4dd80",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f9e1572f50354477b3138923b18b0831);
+            
+    
+            var popup_94c013ab721449bd84608efc6c49d21e = L.popup({maxWidth: '300'});
+
+            
+                var html_4b9861397490429a80dc9b7130a83230 = $('<div id="html_4b9861397490429a80dc9b7130a83230" style="width: 100.0%; height: 100.0%;">Neighborhood: Woodley Park Cluster: 3</div>')[0];
+                popup_94c013ab721449bd84608efc6c49d21e.setContent(html_4b9861397490429a80dc9b7130a83230);
+            
+
+            circle_marker_6b798698d15c4950a749911f47b157b0.bindPopup(popup_94c013ab721449bd84608efc6c49d21e);
+
+            
+        
+    
+            var circle_marker_94de91ed50ce4df8a1daea7b3bf5a78c = L.circleMarker(
+                [38.921530823582394,-77.0757375182682],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#d4dd80",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#d4dd80",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f9e1572f50354477b3138923b18b0831);
+            
+    
+            var popup_5c6533cc0f254de598f230d6b025b761 = L.popup({maxWidth: '300'});
+
+            
+                var html_ea2d888b6a1d49689d7b4aa4ee6c6c3d = $('<div id="html_ea2d888b6a1d49689d7b4aa4ee6c6c3d" style="width: 100.0%; height: 100.0%;">Neighborhood: Glover Park Cluster: 3</div>')[0];
+                popup_5c6533cc0f254de598f230d6b025b761.setContent(html_ea2d888b6a1d49689d7b4aa4ee6c6c3d);
+            
+
+            circle_marker_94de91ed50ce4df8a1daea7b3bf5a78c.bindPopup(popup_5c6533cc0f254de598f230d6b025b761);
+
+            
+        
+    
+            var circle_marker_482e7aa04b78405f92f767fd185e04a1 = L.circleMarker(
+                [38.9299808164985,-77.088324913548],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#2adddd",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#2adddd",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f9e1572f50354477b3138923b18b0831);
+            
+    
+            var popup_867b094b9bf54aaa8048afb5b0658be7 = L.popup({maxWidth: '300'});
+
+            
+                var html_b9484f445976416789a7efcee9f318f6 = $('<div id="html_b9484f445976416789a7efcee9f318f6" style="width: 100.0%; height: 100.0%;">Neighborhood: Wesley Heights Cluster: 2</div>')[0];
+                popup_867b094b9bf54aaa8048afb5b0658be7.setContent(html_b9484f445976416789a7efcee9f318f6);
+            
+
+            circle_marker_482e7aa04b78405f92f767fd185e04a1.bindPopup(popup_867b094b9bf54aaa8048afb5b0658be7);
+
+            
+        
+    
+            var circle_marker_bbd45994210341cda1107a8424b4e806 = L.circleMarker(
+                [38.9204864973519,-77.0927667439835],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#d4dd80",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#d4dd80",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f9e1572f50354477b3138923b18b0831);
+            
+    
+            var popup_d605e110d1bf4449918fe69128455853 = L.popup({maxWidth: '300'});
+
+            
+                var html_e099c90e54304930b06c7b62ebc58693 = $('<div id="html_e099c90e54304930b06c7b62ebc58693" style="width: 100.0%; height: 100.0%;">Neighborhood: Foxhall Crescents Cluster: 3</div>')[0];
+                popup_d605e110d1bf4449918fe69128455853.setContent(html_e099c90e54304930b06c7b62ebc58693);
+            
+
+            circle_marker_bbd45994210341cda1107a8424b4e806.bindPopup(popup_d605e110d1bf4449918fe69128455853);
+
+            
+        
+    
+            var circle_marker_1b3a108b373e43039aee7329c84cfedd = L.circleMarker(
+                [38.9298076690153,-77.1035203793748],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#d4dd80",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#d4dd80",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f9e1572f50354477b3138923b18b0831);
+            
+    
+            var popup_238d2ae5a0494b19bb2f79f60e45a7b3 = L.popup({maxWidth: '300'});
+
+            
+                var html_8922f52427b24279889645769c03ec70 = $('<div id="html_8922f52427b24279889645769c03ec70" style="width: 100.0%; height: 100.0%;">Neighborhood: Palisades Cluster: 3</div>')[0];
+                popup_238d2ae5a0494b19bb2f79f60e45a7b3.setContent(html_8922f52427b24279889645769c03ec70);
+            
+
+            circle_marker_1b3a108b373e43039aee7329c84cfedd.bindPopup(popup_238d2ae5a0494b19bb2f79f60e45a7b3);
+
+            
+        
+    
+            var circle_marker_20bc37578bc5486fa872ae71d205cffa = L.circleMarker(
+                [38.915660439305796,-77.051194710537],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#d4dd80",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#d4dd80",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f9e1572f50354477b3138923b18b0831);
+            
+    
+            var popup_662c13858d9548ba9d77099b15d09e60 = L.popup({maxWidth: '300'});
+
+            
+                var html_e2bb4c64b1a5411ca1385be823434bfe = $('<div id="html_e2bb4c64b1a5411ca1385be823434bfe" style="width: 100.0%; height: 100.0%;">Neighborhood: Kalorama Heights Cluster: 3</div>')[0];
+                popup_662c13858d9548ba9d77099b15d09e60.setContent(html_e2bb4c64b1a5411ca1385be823434bfe);
+            
+
+            circle_marker_20bc37578bc5486fa872ae71d205cffa.bindPopup(popup_662c13858d9548ba9d77099b15d09e60);
+
+            
+        
+    
+            var circle_marker_34c2833e3856490ea2975afd7e985288 = L.circleMarker(
+                [38.92047220020329,-77.0423911054386],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#d4dd80",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#d4dd80",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f9e1572f50354477b3138923b18b0831);
+            
+    
+            var popup_fd45b984c48d443fb5cf638887e8b20f = L.popup({maxWidth: '300'});
+
+            
+                var html_74cf48752c294cb08daa159fb44f7add = $('<div id="html_74cf48752c294cb08daa159fb44f7add" style="width: 100.0%; height: 100.0%;">Neighborhood: Adams Morgan Cluster: 3</div>')[0];
+                popup_fd45b984c48d443fb5cf638887e8b20f.setContent(html_74cf48752c294cb08daa159fb44f7add);
+            
+
+            circle_marker_34c2833e3856490ea2975afd7e985288.bindPopup(popup_fd45b984c48d443fb5cf638887e8b20f);
+
+            
+        
+    
+            var circle_marker_1d822014272e4a909777d63eede8f886 = L.circleMarker(
+                [38.9121281041108,-77.0409837040178],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#d4dd80",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#d4dd80",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f9e1572f50354477b3138923b18b0831);
+            
+    
+            var popup_05f871bbcf584b15b63fe108b87765c5 = L.popup({maxWidth: '300'});
+
+            
+                var html_006aa74bffe84f63b5ab611145fbfb50 = $('<div id="html_006aa74bffe84f63b5ab611145fbfb50" style="width: 100.0%; height: 100.0%;">Neighborhood: Dupont Circle Cluster: 3</div>')[0];
+                popup_05f871bbcf584b15b63fe108b87765c5.setContent(html_006aa74bffe84f63b5ab611145fbfb50);
+            
+
+            circle_marker_1d822014272e4a909777d63eede8f886.bindPopup(popup_05f871bbcf584b15b63fe108b87765c5);
+
+            
+        
+    
+            var circle_marker_7ba8615d99da45458e38eef486c30b52 = L.circleMarker(
+                [38.925248829166605,-77.0426935465206],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#d4dd80",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#d4dd80",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f9e1572f50354477b3138923b18b0831);
+            
+    
+            var popup_772f0ef001ee41bf83d6c6ed2a459926 = L.popup({maxWidth: '300'});
+
+            
+                var html_bd7df5a76bd24087b625c6c5116c4121 = $('<div id="html_bd7df5a76bd24087b625c6c5116c4121" style="width: 100.0%; height: 100.0%;">Neighborhood: Lanier Heights Cluster: 3</div>')[0];
+                popup_772f0ef001ee41bf83d6c6ed2a459926.setContent(html_bd7df5a76bd24087b625c6c5116c4121);
+            
+
+            circle_marker_7ba8615d99da45458e38eef486c30b52.bindPopup(popup_772f0ef001ee41bf83d6c6ed2a459926);
+
+            
+        
+    
+            var circle_marker_9eea5b8b5d4d4919a9299ad619646160 = L.circleMarker(
+                [38.931741493101704,-77.0406558866918],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#d4dd80",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#d4dd80",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f9e1572f50354477b3138923b18b0831);
+            
+    
+            var popup_f194ce62602f46878ab81789da331197 = L.popup({maxWidth: '300'});
+
+            
+                var html_6b2290afeee54a4a9ad6530b7f91543f = $('<div id="html_6b2290afeee54a4a9ad6530b7f91543f" style="width: 100.0%; height: 100.0%;">Neighborhood: Mount Pleasant Cluster: 3</div>')[0];
+                popup_f194ce62602f46878ab81789da331197.setContent(html_6b2290afeee54a4a9ad6530b7f91543f);
+            
+
+            circle_marker_9eea5b8b5d4d4919a9299ad619646160.bindPopup(popup_f194ce62602f46878ab81789da331197);
+
+            
+        
+    
+            var circle_marker_5ac83c1f1f464982aef16c9ea135eec7 = L.circleMarker(
+                [38.9346042581462,-77.0214442664625],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#d4dd80",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#d4dd80",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f9e1572f50354477b3138923b18b0831);
+            
+    
+            var popup_75ed95637acd40a1adc52cbd1a0f2abc = L.popup({maxWidth: '300'});
+
+            
+                var html_123a3fb7e96a4cc8aa1568394d1bab14 = $('<div id="html_123a3fb7e96a4cc8aa1568394d1bab14" style="width: 100.0%; height: 100.0%;">Neighborhood: Park View Cluster: 3</div>')[0];
+                popup_75ed95637acd40a1adc52cbd1a0f2abc.setContent(html_123a3fb7e96a4cc8aa1568394d1bab14);
+            
+
+            circle_marker_5ac83c1f1f464982aef16c9ea135eec7.bindPopup(popup_75ed95637acd40a1adc52cbd1a0f2abc);
+
+            
+        
+    
+            var circle_marker_dfd127d39d404f4ba56c853d5a00f591 = L.circleMarker(
+                [38.9168315973876,-77.01760455069609],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#d4dd80",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#d4dd80",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f9e1572f50354477b3138923b18b0831);
+            
+    
+            var popup_87b5575dc73b47ba88ebe53e40eddb80 = L.popup({maxWidth: '300'});
+
+            
+                var html_d5995dc427d643ea9373f3eebbe43e76 = $('<div id="html_d5995dc427d643ea9373f3eebbe43e76" style="width: 100.0%; height: 100.0%;">Neighborhood: Le Droit Park Cluster: 3</div>')[0];
+                popup_87b5575dc73b47ba88ebe53e40eddb80.setContent(html_d5995dc427d643ea9373f3eebbe43e76);
+            
+
+            circle_marker_dfd127d39d404f4ba56c853d5a00f591.bindPopup(popup_87b5575dc73b47ba88ebe53e40eddb80);
+
+            
+        
+    
+            var circle_marker_7edb2face44f43078033fd0c5df688fa = L.circleMarker(
+                [38.922354817823,-77.0196102667686],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#d4dd80",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#d4dd80",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f9e1572f50354477b3138923b18b0831);
+            
+    
+            var popup_8cab5f3455254c3298f636bace2ea4c0 = L.popup({maxWidth: '300'});
+
+            
+                var html_8d7ad84a48b04f388d08839b4e982a54 = $('<div id="html_8d7ad84a48b04f388d08839b4e982a54" style="width: 100.0%; height: 100.0%;">Neighborhood: Howard University Cluster: 3</div>')[0];
+                popup_8cab5f3455254c3298f636bace2ea4c0.setContent(html_8d7ad84a48b04f388d08839b4e982a54);
+            
+
+            circle_marker_7edb2face44f43078033fd0c5df688fa.bindPopup(popup_8cab5f3455254c3298f636bace2ea4c0);
+
+            
+        
+    
+            var circle_marker_b5051ebd425741eb93abdc46027e66c9 = L.circleMarker(
+                [38.902374788231,-76.9997338897176],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#d4dd80",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#d4dd80",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f9e1572f50354477b3138923b18b0831);
+            
+    
+            var popup_76205578511144ef94c59cebee8adb04 = L.popup({maxWidth: '300'});
+
+            
+                var html_de9c5118f56c4507a5677b111d75ce23 = $('<div id="html_de9c5118f56c4507a5677b111d75ce23" style="width: 100.0%; height: 100.0%;">Neighborhood: Near Northeast Cluster: 3</div>')[0];
+                popup_76205578511144ef94c59cebee8adb04.setContent(html_de9c5118f56c4507a5677b111d75ce23);
+            
+
+            circle_marker_b5051ebd425741eb93abdc46027e66c9.bindPopup(popup_76205578511144ef94c59cebee8adb04);
+
+            
+        
+    
+            var circle_marker_a34c61ec43a244c7bfa1961e5fc223d2 = L.circleMarker(
+                [38.894897817324,-76.9942417145955],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#2adddd",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#2adddd",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f9e1572f50354477b3138923b18b0831);
+            
+    
+            var popup_667179ed4c79447fa244e7785998e302 = L.popup({maxWidth: '300'});
+
+            
+                var html_5f3d84fad58e4e519ae2cdb23e9e2ae7 = $('<div id="html_5f3d84fad58e4e519ae2cdb23e9e2ae7" style="width: 100.0%; height: 100.0%;">Neighborhood: Stanton Park Cluster: 2</div>')[0];
+                popup_667179ed4c79447fa244e7785998e302.setContent(html_5f3d84fad58e4e519ae2cdb23e9e2ae7);
+            
+
+            circle_marker_a34c61ec43a244c7bfa1961e5fc223d2.bindPopup(popup_667179ed4c79447fa244e7785998e302);
+
+            
+        
+    
+            var circle_marker_ca5f3cc9b6954ec2b9f285b652b378fa = L.circleMarker(
+                [38.8948865679303,-76.9784365758833],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#2adddd",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#2adddd",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f9e1572f50354477b3138923b18b0831);
+            
+    
+            var popup_aad64c6b4ab043a09091db085c4ec2c2 = L.popup({maxWidth: '300'});
+
+            
+                var html_0274110f77d0480abd12b041eaf83649 = $('<div id="html_0274110f77d0480abd12b041eaf83649" style="width: 100.0%; height: 100.0%;">Neighborhood: Kingman Park Cluster: 2</div>')[0];
+                popup_aad64c6b4ab043a09091db085c4ec2c2.setContent(html_0274110f77d0480abd12b041eaf83649);
+            
+
+            circle_marker_ca5f3cc9b6954ec2b9f285b652b378fa.bindPopup(popup_aad64c6b4ab043a09091db085c4ec2c2);
+
+            
+        
+    
+            var circle_marker_39d4cc0c2ade4f3b8b3c76dc06e04094 = L.circleMarker(
+                [38.883330004207004,-76.9799506638028],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#d4dd80",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#d4dd80",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f9e1572f50354477b3138923b18b0831);
+            
+    
+            var popup_9a71fb9851d743c889f6168808f4cfd3 = L.popup({maxWidth: '300'});
+
+            
+                var html_0d93ba39ca5f40f3ba2bccad896dc1dc = $('<div id="html_0d93ba39ca5f40f3ba2bccad896dc1dc" style="width: 100.0%; height: 100.0%;">Neighborhood: Hill East Cluster: 3</div>')[0];
+                popup_9a71fb9851d743c889f6168808f4cfd3.setContent(html_0d93ba39ca5f40f3ba2bccad896dc1dc);
+            
+
+            circle_marker_39d4cc0c2ade4f3b8b3c76dc06e04094.bindPopup(popup_9a71fb9851d743c889f6168808f4cfd3);
+
+            
+        
+    
+            var circle_marker_33f97d4a9e0c4586afa3fbf19427364f = L.circleMarker(
+                [38.874268413431395,-76.9984616462567],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#d4dd80",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#d4dd80",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f9e1572f50354477b3138923b18b0831);
+            
+    
+            var popup_c65ebfad8313432e9417cb52e0d1f5bd = L.popup({maxWidth: '300'});
+
+            
+                var html_5267368dfdf140a8bbb3907713e3ce14 = $('<div id="html_5267368dfdf140a8bbb3907713e3ce14" style="width: 100.0%; height: 100.0%;">Neighborhood: Navy Yard Cluster: 3</div>')[0];
+                popup_c65ebfad8313432e9417cb52e0d1f5bd.setContent(html_5267368dfdf140a8bbb3907713e3ce14);
+            
+
+            circle_marker_33f97d4a9e0c4586afa3fbf19427364f.bindPopup(popup_c65ebfad8313432e9417cb52e0d1f5bd);
+
+            
+        
+    
+            var circle_marker_d32bdcf0edd9447eafa0e67753bb792c = L.circleMarker(
+                [38.9011156447215,-76.95129459087849],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#d4dd80",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#d4dd80",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f9e1572f50354477b3138923b18b0831);
+            
+    
+            var popup_ed7ed6c4f894401e956d3ff2df15df68 = L.popup({maxWidth: '300'});
+
+            
+                var html_7455e12022e041959ab8d30190efc11c = $('<div id="html_7455e12022e041959ab8d30190efc11c" style="width: 100.0%; height: 100.0%;">Neighborhood: Mayfair Cluster: 3</div>')[0];
+                popup_ed7ed6c4f894401e956d3ff2df15df68.setContent(html_7455e12022e041959ab8d30190efc11c);
+            
+
+            circle_marker_d32bdcf0edd9447eafa0e67753bb792c.bindPopup(popup_ed7ed6c4f894401e956d3ff2df15df68);
+
+            
+        
+    
+            var circle_marker_9ff62123b81e4cb4a1722bec9c5c7d2d = L.circleMarker(
+                [38.8937045472444,-76.957680655864],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#2adddd",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#2adddd",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f9e1572f50354477b3138923b18b0831);
+            
+    
+            var popup_c9f6d39109f8479680b29e1b8f754018 = L.popup({maxWidth: '300'});
+
+            
+                var html_5653a7dbac6247039a1dad8b8e18f214 = $('<div id="html_5653a7dbac6247039a1dad8b8e18f214" style="width: 100.0%; height: 100.0%;">Neighborhood: River Terrace Cluster: 2</div>')[0];
+                popup_c9f6d39109f8479680b29e1b8f754018.setContent(html_5653a7dbac6247039a1dad8b8e18f214);
+            
+
+            circle_marker_9ff62123b81e4cb4a1722bec9c5c7d2d.bindPopup(popup_c9f6d39109f8479680b29e1b8f754018);
+
+            
+        
+    
+            var circle_marker_ab880ea083b44c709315ff6e9141a115 = L.circleMarker(
+                [38.90024298711089,-76.9218024698865],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f9e1572f50354477b3138923b18b0831);
+            
+    
+            var popup_8027cb51cbcc457d9b5cd4b6139bfdd0 = L.popup({maxWidth: '300'});
+
+            
+                var html_9066ea8db43a4c1086f670bfc2aeaa64 = $('<div id="html_9066ea8db43a4c1086f670bfc2aeaa64" style="width: 100.0%; height: 100.0%;">Neighborhood: Burrville Cluster: 0</div>')[0];
+                popup_8027cb51cbcc457d9b5cd4b6139bfdd0.setContent(html_9066ea8db43a4c1086f670bfc2aeaa64);
+            
+
+            circle_marker_ab880ea083b44c709315ff6e9141a115.bindPopup(popup_8027cb51cbcc457d9b5cd4b6139bfdd0);
+
+            
+        
+    
+            var circle_marker_cc20b3c0223f4df9b26f4670ae19f566 = L.circleMarker(
+                [38.89545081802439,-76.91738942991292],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f9e1572f50354477b3138923b18b0831);
+            
+    
+            var popup_96b4518314df418a9a797f5341a89de7 = L.popup({maxWidth: '300'});
+
+            
+                var html_045531140c0946f9838886620c7aa59b = $('<div id="html_045531140c0946f9838886620c7aa59b" style="width: 100.0%; height: 100.0%;">Neighborhood: NE Boundary Cluster: 0</div>')[0];
+                popup_96b4518314df418a9a797f5341a89de7.setContent(html_045531140c0946f9838886620c7aa59b);
+            
+
+            circle_marker_cc20b3c0223f4df9b26f4670ae19f566.bindPopup(popup_96b4518314df418a9a797f5341a89de7);
+
+            
+        
+    
+            var circle_marker_9ae205ca7a9d459b8f4085714c3a0dea = L.circleMarker(
+                [38.8918848994404,-76.94888362380308],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#d4dd80",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#d4dd80",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f9e1572f50354477b3138923b18b0831);
+            
+    
+            var popup_802efea8b9574d1aa46f669c01f0e46f = L.popup({maxWidth: '300'});
+
+            
+                var html_1cb08d12d393436388766c351dee39f7 = $('<div id="html_1cb08d12d393436388766c351dee39f7" style="width: 100.0%; height: 100.0%;">Neighborhood: Benning Cluster: 3</div>')[0];
+                popup_802efea8b9574d1aa46f669c01f0e46f.setContent(html_1cb08d12d393436388766c351dee39f7);
+            
+
+            circle_marker_9ae205ca7a9d459b8f4085714c3a0dea.bindPopup(popup_802efea8b9574d1aa46f669c01f0e46f);
+
+            
+        
+    
+            var circle_marker_8058cefbd5c44354b94ae4dd17a8fa37 = L.circleMarker(
+                [38.8927065018929,-76.9206384366628],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#2adddd",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#2adddd",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f9e1572f50354477b3138923b18b0831);
+            
+    
+            var popup_c2afbc44c9394dfcb7292e93e14bcbb3 = L.popup({maxWidth: '300'});
+
+            
+                var html_eab90d2272f741e98021b3fd4b6390a2 = $('<div id="html_eab90d2272f741e98021b3fd4b6390a2" style="width: 100.0%; height: 100.0%;">Neighborhood: Grant Park Cluster: 2</div>')[0];
+                popup_c2afbc44c9394dfcb7292e93e14bcbb3.setContent(html_eab90d2272f741e98021b3fd4b6390a2);
+            
+
+            circle_marker_8058cefbd5c44354b94ae4dd17a8fa37.bindPopup(popup_c2afbc44c9394dfcb7292e93e14bcbb3);
+
+            
+        
+    
+            var circle_marker_de2488f5004d4bb4aa85443feaeb2fac = L.circleMarker(
+                [38.897034546690605,-76.94227676060271],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#2adddd",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#2adddd",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f9e1572f50354477b3138923b18b0831);
+            
+    
+            var popup_fe7c3511e5b147469c8077a93bd95808 = L.popup({maxWidth: '300'});
+
+            
+                var html_0207c3373623465388e58ba7ee8330d9 = $('<div id="html_0207c3373623465388e58ba7ee8330d9" style="width: 100.0%; height: 100.0%;">Neighborhood: Central NE Cluster: 2</div>')[0];
+                popup_fe7c3511e5b147469c8077a93bd95808.setContent(html_0207c3373623465388e58ba7ee8330d9);
+            
+
+            circle_marker_de2488f5004d4bb4aa85443feaeb2fac.bindPopup(popup_fe7c3511e5b147469c8077a93bd95808);
+
+            
+        
+    
+            var circle_marker_a259cd84baa6443689789c49e60f5466 = L.circleMarker(
+                [38.8958051701437,-76.9310965550761],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f9e1572f50354477b3138923b18b0831);
+            
+    
+            var popup_cad87fa893b3401baf31330a5d4fd43c = L.popup({maxWidth: '300'});
+
+            
+                var html_baf1a25eefec478f9c187734f701c37e = $('<div id="html_baf1a25eefec478f9c187734f701c37e" style="width: 100.0%; height: 100.0%;">Neighborhood: Lincoln Heights Cluster: 0</div>')[0];
+                popup_cad87fa893b3401baf31330a5d4fd43c.setContent(html_baf1a25eefec478f9c187734f701c37e);
+            
+
+            circle_marker_a259cd84baa6443689789c49e60f5466.bindPopup(popup_cad87fa893b3401baf31330a5d4fd43c);
+
+            
+        
+    
+            var circle_marker_57eb8870cc674d3c871802adb3c7f903 = L.circleMarker(
+                [38.8899784522207,-76.9270859056098],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f9e1572f50354477b3138923b18b0831);
+            
+    
+            var popup_98b5aa9cf535409eb30e485271453931 = L.popup({maxWidth: '300'});
+
+            
+                var html_492023aa61c44c4982ab88526b494e0b = $('<div id="html_492023aa61c44c4982ab88526b494e0b" style="width: 100.0%; height: 100.0%;">Neighborhood: Capitol View Cluster: 0</div>')[0];
+                popup_98b5aa9cf535409eb30e485271453931.setContent(html_492023aa61c44c4982ab88526b494e0b);
+            
+
+            circle_marker_57eb8870cc674d3c871802adb3c7f903.bindPopup(popup_98b5aa9cf535409eb30e485271453931);
+
+            
+        
+    
+            var circle_marker_d1a3797e8ad6487280350517cbd0154a = L.circleMarker(
+                [38.884371944875205,-76.9291217165625],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#d4dd80",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#d4dd80",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f9e1572f50354477b3138923b18b0831);
+            
+    
+            var popup_2f4847b326b1468380f79bb904fac2ff = L.popup({maxWidth: '300'});
+
+            
+                var html_b5c16607746c4046b6c95287c1254e65 = $('<div id="html_b5c16607746c4046b6c95287c1254e65" style="width: 100.0%; height: 100.0%;">Neighborhood: Marshall Heights Cluster: 3</div>')[0];
+                popup_2f4847b326b1468380f79bb904fac2ff.setContent(html_b5c16607746c4046b6c95287c1254e65);
+            
+
+            circle_marker_d1a3797e8ad6487280350517cbd0154a.bindPopup(popup_2f4847b326b1468380f79bb904fac2ff);
+
+            
+        
+    
+            var circle_marker_04c2fb8fd58c44afb84f4105862d4f5c = L.circleMarker(
+                [38.8689011862343,-76.9446698390664],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#d4dd80",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#d4dd80",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f9e1572f50354477b3138923b18b0831);
+            
+    
+            var popup_039319d065b145de8639c794ce69854e = L.popup({maxWidth: '300'});
+
+            
+                var html_86d6561e473149dbbd1b74e31ce1b62d = $('<div id="html_86d6561e473149dbbd1b74e31ce1b62d" style="width: 100.0%; height: 100.0%;">Neighborhood: Fort Davis Park Cluster: 3</div>')[0];
+                popup_039319d065b145de8639c794ce69854e.setContent(html_86d6561e473149dbbd1b74e31ce1b62d);
+            
+
+            circle_marker_04c2fb8fd58c44afb84f4105862d4f5c.bindPopup(popup_039319d065b145de8639c794ce69854e);
+
+            
+        
+    
+            var circle_marker_1c86727df38247d3994f9c8ce203cbc5 = L.circleMarker(
+                [38.8634526746719,-76.95163006579891],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f9e1572f50354477b3138923b18b0831);
+            
+    
+            var popup_efa3ccd3222f4d07a149a1a835fd8117 = L.popup({maxWidth: '300'});
+
+            
+                var html_b005d3312f7840edb4815be329607f53 = $('<div id="html_b005d3312f7840edb4815be329607f53" style="width: 100.0%; height: 100.0%;">Neighborhood: Fairfax Village Cluster: 0</div>')[0];
+                popup_efa3ccd3222f4d07a149a1a835fd8117.setContent(html_b005d3312f7840edb4815be329607f53);
+            
+
+            circle_marker_1c86727df38247d3994f9c8ce203cbc5.bindPopup(popup_efa3ccd3222f4d07a149a1a835fd8117);
+
+            
+        
+    
+            var circle_marker_13d3481a5d544d9eaece2ba86b3eee49 = L.circleMarker(
+                [38.861794493982,-76.9606882505143],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#d4dd80",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#d4dd80",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f9e1572f50354477b3138923b18b0831);
+            
+    
+            var popup_0416ded025fe4ca2b771fa1fa3af6d6f = L.popup({maxWidth: '300'});
+
+            
+                var html_0466d8d422d74814a625f6cfa225f4fb = $('<div id="html_0466d8d422d74814a625f6cfa225f4fb" style="width: 100.0%; height: 100.0%;">Neighborhood: Hillcrest Cluster: 3</div>')[0];
+                popup_0416ded025fe4ca2b771fa1fa3af6d6f.setContent(html_0466d8d422d74814a625f6cfa225f4fb);
+            
+
+            circle_marker_13d3481a5d544d9eaece2ba86b3eee49.bindPopup(popup_0416ded025fe4ca2b771fa1fa3af6d6f);
+
+            
+        
+    
+            var circle_marker_55af932221de425fbac4350d7db16750 = L.circleMarker(
+                [38.9433271122463,-77.04109689108509],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#d4dd80",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#d4dd80",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f9e1572f50354477b3138923b18b0831);
+            
+    
+            var popup_5e85bfa42a6b4c93aba30f3339decb9d = L.popup({maxWidth: '300'});
+
+            
+                var html_a18d7b549016472e86f360abeaf86ba6 = $('<div id="html_a18d7b549016472e86f360abeaf86ba6" style="width: 100.0%; height: 100.0%;">Neighborhood: Crestwood Cluster: 3</div>')[0];
+                popup_5e85bfa42a6b4c93aba30f3339decb9d.setContent(html_a18d7b549016472e86f360abeaf86ba6);
+            
+
+            circle_marker_55af932221de425fbac4350d7db16750.bindPopup(popup_5e85bfa42a6b4c93aba30f3339decb9d);
+
+            
+        
+    
+            var circle_marker_4f7007bd64794d5dae91ea8c7d972284 = L.circleMarker(
+                [38.9043398124131,-77.023313477993],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#d4dd80",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#d4dd80",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f9e1572f50354477b3138923b18b0831);
+            
+    
+            var popup_8f9722acd3e54b6abd7f0562006c8048 = L.popup({maxWidth: '300'});
+
+            
+                var html_ab8833d756c2435fb56e79b1bdfebe67 = $('<div id="html_ab8833d756c2435fb56e79b1bdfebe67" style="width: 100.0%; height: 100.0%;">Neighborhood: Mount Vernon Square Cluster: 3</div>')[0];
+                popup_8f9722acd3e54b6abd7f0562006c8048.setContent(html_ab8833d756c2435fb56e79b1bdfebe67);
+            
+
+            circle_marker_4f7007bd64794d5dae91ea8c7d972284.bindPopup(popup_8f9722acd3e54b6abd7f0562006c8048);
+
+            
+        
+</script>
